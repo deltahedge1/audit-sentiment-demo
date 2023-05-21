@@ -1,818 +1,688 @@
-data = [
-  {
-    "text": "Just designed a stunning poster for my upcoming event using @canva! Feeling excited to share it with everyone! #design #eventplanning",
-    "timestamp": "2023-05-20T09:00:00Z"
-  },
-  {
-    "text": "Started using @canva Pro today, and I'm already blown away by the additional features and templates! #graphicdesign #canvapro",
-    "timestamp": "2023-05-20T09:15:00Z"
-  },
-  {
-    "text": "Feeling grateful for @canva's user-friendly interface that makes it so easy to create professional-looking social media graphics! #grateful #design",
-    "timestamp": "2023-05-20T09:30:00Z"
-  },
-  {
-    "text": "Just ordered business cards from @canva Print! Can't wait to see how they turn out. #printing #businesscards",
-    "timestamp": "2023-05-20T09:45:00Z"
-  },
-  {
-    "text": "Feeling inspired to create an eye-catching infographic for my next presentation using @canva! #infographic #presentation",
-    "timestamp": "2023-05-20T10:00:00Z"
-  },
-  {
-    "text": "Tried out the Canva mobile app today, and it's a game-changer! Now I can design on the go. #design #mobileapp",
-    "timestamp": "2023-05-20T10:15:00Z"
-  },
-  {
-    "text": "Canva Brand Kit has made it so much easier for me to maintain a consistent visual identity for my brand. #branding #design",
-    "timestamp": "2023-05-20T10:30:00Z"
-  },
-  {
-    "text": "Just watched a tutorial on Canva Video and I'm excited to start creating engaging videos for my social media campaigns! #videomarketing #canvavideo",
-    "timestamp": "2023-05-20T10:45:00Z"
-  },
-  {
-    "text": "Feeling proud of my latest design created with @canva! It's amazing how this platform helps bring my ideas to life. #design #creativity",
-    "timestamp": "2023-05-20T11:00:00Z"
-  },
-  {
-    "text": "Canva for Education is a game-changer for teachers and students! It's empowering us to create visually engaging educational materials. #education #edtech",
-    "timestamp": "2023-05-20T11:15:00Z"
-  },
-  {
-    "text": "Just received my prints from @canva Print, and they turned out fantastic! The quality is top-notch. #printing #canvaprint",
-    "timestamp": "2023-05-20T11:30:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed with design ideas after exploring the vast library of templates on @canva. So many possibilities! #designinspiration #creativity",
-    "timestamp": "2023-05-20T11:45:00Z"
-  },
-  {
-    "text": "Canva Pro has been a game-changer for my business. The advanced design tools have elevated the quality of my graphics. #canvapro #graphicdesign",
-    "timestamp": "2023-05-20T12:00:00Z"
-  },
-  {
-    "text": "Feeling excited to collaborate with my team on a project using @canva! The real-time collaboration feature makes it so convenient. #collaboration #teamwork",
-    "timestamp": "2023-05-20T12:15:00Z"
-  },
-  {
-    "text": "Just created a beautiful social media post with @canva and it's getting so much engagement! #socialmediamarketing #design",
-    "timestamp": "2023-05-20T12:30:00Z"
-  },
-  {
-    "text": "Feeling productive today thanks to @canva! The intuitive design editor helps me save time while creating stunning visuals. #productivity #design",
-    "timestamp": "2023-05-20T12:45:00Z"
-  },
-  {
-    "text": "Canva Video has taken my social media presence to the next level. Videos are grabbing more attention and increasing engagement! #videomarketing #canvavideo",
-    "timestamp": "2023-05-20T13:00:00Z"
-  },
-  {
-    "text": "Just discovered the Canva Print feature, and I'm impressed by the range of print materials available. So convenient! #printing #canvaprint",
-    "timestamp": "2023-05-20T13:15:00Z"
-  },
-  {
-    "text": "Feeling relieved that I can resize my designs effortlessly with @canva Pro. No more manual resizing for different platforms! #design #efficiency",
-    "timestamp": "2023-05-20T13:30:00Z"
-  },
-  {
-    "text": "Canva for Education is a game-changer for remote learning. It helps teachers create engaging materials that keep students motivated. #edtech #remotelearning",
-    "timestamp": "2023-05-20T13:45:00Z"
-  },
-  {
-    "text": "Feeling grateful for @canva's extensive library of free images and icons. They add the perfect touch to my designs! #grateful #designresources",
-    "timestamp": "2023-05-20T14:00:00Z"
-  },
-  {
-    "text": "Canva Mobile App has become my go-to tool for quick design edits and tweaks. It's so convenient to have it on my phone! #design #mobileapp",
-    "timestamp": "2023-05-20T14:15:00Z"
-  },
-  {
-    "text": "Just customized my brand's color palette in Canva Brand Kit. Now all my designs reflect my brand's identity seamlessly! #branding #design",
-    "timestamp": "2023-05-20T14:30:00Z"
-  },
-  {
-    "text": "Feeling thrilled to have access to premium templates and elements with @canva Pro. They make my designs look even more professional! #premiumfeatures #design",
-    "timestamp": "2023-05-20T14:45:00Z"
-  },
-  {
-    "text": "Canva Video has simplified the process of creating captivating animations. My social media posts have never looked better! #animation #canvavideo",
-    "timestamp": "2023-05-20T15:00:00Z"
-  },
-  {
-    "text": "Just received a positive response to my business card design created with @canva. It's leaving a lasting impression on potential clients! #businesscards #design",
-    "timestamp": "2023-05-20T15:15:00Z"
-  },
-  {
-    "text": "Feeling inspired by the diverse range of fonts available in @canva. They help me convey the right tone and style in my designs. #typography #design",
-    "timestamp": "2023-05-20T15:30:00Z"
-  },
-  {
-    "text": "Canva for Education is a lifesaver for creating engaging worksheets and activities. Students love the visual elements! #education #teachingresources",
-    "timestamp": "2023-05-20T15:45:00Z"
-  },
-  {
-    "text": "Just designed a captivating flyer for my event using @canva. It's sure to grab attention and boost attendance! #eventpromotion #design",
-    "timestamp": "2023-05-20T16:00:00Z"
-  },
-  {
-    "text": "Feeling accomplished after successfully resizing my design for different social media platforms using @canva Pro. It's so effortless! #design #resizetool",
-    "timestamp": "2023-05-20T16:15:00Z"
-  },
-  {
-    "text": "Canva Print has made my life easier by delivering high-quality prints right to my doorstep. No more trips to the print shop! #printing #convenience",
-    "timestamp": "2023-05-20T16:30:00Z"
-  },
-  {
-    "text": "Feeling impressed by the wide range of infographic templates available in @canva. They help me convey complex information visually. #infographic #design",
-    "timestamp": "2023-05-20T16:45:00Z"
-  },
-  {
-    "text": "Canva Pro's collaboration feature has made teamwork seamless. Now, multiple team members can work on a design simultaneously! #collaboration #teamwork",
-    "timestamp": "2023-05-20T17:00:00Z"
-  },
-  {
-    "text": "Just created a captivating video using @canva Video. It's perfect for showcasing my brand's story on social media! #videomarketing #branding",
-    "timestamp": "2023-05-20T17:15:00Z"
-  },
-  {
-    "text": "Feeling thankful for @canva's intuitive drag-and-drop interface. It makes designing fun and hassle-free! #grateful #design",
-    "timestamp": "2023-05-20T17:30:00Z"
-  },
-  {
-    "text": "Canva for Education has revolutionized the way I create lesson plans. The visual elements make learning more engaging for students. #edtech #teaching",
-    "timestamp": "2023-05-20T17:45:00Z"
-  },
-  {
-    "text": "Just received my beautifully designed prints from @canva Print. The attention to detail is impeccable! #printing #canvaprint",
-    "timestamp": "2023-05-20T18:00:00Z"
-  },
-  {
-    "text": "Feeling motivated to experiment with different design styles after browsing through @canva's vast collection of templates. #designinspiration #creativity",
-    "timestamp": "2023-05-20T18:15:00Z"
-  },
-  {
-    "text": "Canva Pro's premium elements and effects have added a touch of elegance to my designs. They help me stand out from the crowd! #canvapro #design",
-    "timestamp": "2023-05-20T18:30:00Z"
-  },
-  {
-    "text": "Feeling excited to try out the new animation features in Canva Video. It's a great way to capture attention on social media! #animation #canvavideo",
-    "timestamp": "2023-05-20T18:45:00Z"
-  },
-  {
-    "text": "Just received positive feedback on my business card design created with @canva. It's making a memorable impression! #businesscards #design",
-    "timestamp": "2023-05-20T19:00:00Z"
-  },
-  {
-    "text": "Feeling inspired by the versatility of fonts available in @canva. They allow me to express my creativity and enhance my designs. #typography #design",
-    "timestamp": "2023-05-20T19:15:00Z"
-  },
-  {
-    "text": "Canva for Education has transformed the way I create teaching materials. It's a valuable resource for engaging students visually! #education #teachingresources",
-    "timestamp": "2023-05-20T19:30:00Z"
-  },
-  {
-    "text": "Just designed an eye-catching poster for my event using @canva. It's sure to attract a crowd! #eventpromotion #design",
-    "timestamp": "2023-05-20T19:45:00Z"
-  },
-  {
-    "text": "Feeling accomplished after effortlessly resizing my design for different social media platforms using @canva Pro. It's a time-saver! #design #resizetool",
-    "timestamp": "2023-05-20T20:00:00Z"
-  },
-  {
-    "text": "Canva Print's convenience is unbeatable. I can order prints without leaving my desk, and they always arrive in great quality! #printing #convenience",
-    "timestamp": "2023-05-20T20:15:00Z"
-  },
-  {
-    "text": "Feeling inspired by the extensive library of infographic templates in @canva. They make it easy to create visually appealing data presentations. #infographic #design",
-    "timestamp": "2023-05-20T20:30:00Z"
-  },
-  {
-    "text": "Canva Pro's collaboration feature is a game-changer for my team. We can work together seamlessly and bring our ideas to life. #collaboration #teamwork",
-    "timestamp": "2023-05-20T20:45:00Z"
-  },
-  {
-    "text": "Just created an engaging video using @canva Video. It's perfect for capturing attention and conveying my brand's message! #videomarketing #branding",
-    "timestamp": "2023-05-20T21:00:00Z"
-  },
-  {
-    "text": "Feeling grateful for @canva's user-friendly interface. It allows me to design effortlessly and bring my ideas to life! #grateful #design",
-    "timestamp": "2023-05-20T21:15:00Z"
-  },
-  {
-    "text": "Canva for Education has made teaching more engaging and interactive. It's a fantastic tool for creating visually appealing learning materials. #edtech #teaching",
-    "timestamp": "2023-05-20T21:30:00Z"
-  },
-  {
-    "text": "Just received my beautifully printed designs from @canva Print. The attention to detail is impeccable! #printing #canvaprint",
-    "timestamp": "2023-05-20T21:45:00Z"
-  },
-  {
-    "text": "Feeling inspired to explore different design styles after browsing @canva's vast collection of templates. So many possibilities! #designinspiration #creativity",
-    "timestamp": "2023-05-20T22:00:00Z"
-  },
-  {
-    "text": "Canva Pro's premium elements and effects have elevated the quality of my designs. They add that extra touch of professionalism! #canvapro #design",
-    "timestamp": "2023-05-20T22:15:00Z"
-  },
-  {
-    "text": "Feeling excited to experiment with the new animation features in Canva Video. It's a great way to make my designs more dynamic! #animation #canvavideo",
-    "timestamp": "2023-05-20T22:30:00Z"
-  },
-  {
-    "text": "Just received positive feedback on my business cards designed with @canva. They're leaving a lasting impression! #businesscards #design",
-    "timestamp": "2023-05-20T22:45:00Z"
-  },
-  {
-    "text": "Feeling inspired by the wide variety of fonts available in @canva. They allow me to express my creativity and enhance my designs. #typography #design",
-    "timestamp": "2023-05-20T23:00:00Z"
-  },
-  {
-    "text": "Canva for Education has revolutionized my teaching materials. The visual elements engage students and make learning fun! #education #teachingresources",
-    "timestamp": "2023-05-20T23:15:00Z"
-  },
-  {
-    "text": "Just designed a captivating flyer for my event using @canva. It's guaranteed to catch people's attention! #eventpromotion #design",
-    "timestamp": "2023-05-20T23:30:00Z"
-  },
-  {
-    "text": "Feeling accomplished after seamlessly resizing my design for different social media platforms using @canva Pro. It's a real time-saver! #design #resizetool",
-    "timestamp": "2023-05-20T23:45:00Z"
-  },
-  {
-    "text": "Just created a stunning social media post using @canva! It's incredible how easy it is to design professional-looking graphics. #design #socialmedia",
-    "timestamp": "2023-05-20T12:00:00Z"
-  },
-  {
-    "text": "Feeling frustrated with @canva's limited font options. It's challenging to find the perfect font for my design. #designstruggles #fonts",
-    "timestamp": "2023-05-20T12:15:00Z"
-  },
-  {
-    "text": "Canva Video has taken my marketing game to new heights. The engaging videos I create are driving more conversions! #videomarketing #canvavideo",
-    "timestamp": "2023-05-20T12:30:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed by the number of design options in @canva. Sometimes it's hard to choose and commit to a specific design. #designchoices #overwhelmed",
-    "timestamp": "2023-05-20T12:45:00Z"
-  },
-  {
-    "text": "Canva Print is a lifesaver for my business. The print quality is exceptional, and the fast delivery is impressive! #printing #canvaprint",
-    "timestamp": "2023-05-20T13:00:00Z"
-  },
-  {
-    "text": "Just encountered a frustrating bug in @canva's design editor. It's affecting my workflow and causing delays. #techissues #frustrated",
-    "timestamp": "2023-05-20T13:15:00Z"
-  },
-  {
-    "text": "Feeling grateful for @canva's user-friendly interface. It makes designing enjoyable and accessible for everyone! #grateful #userexperience",
-    "timestamp": "2023-05-20T13:30:00Z"
-  },
-  {
-    "text": "Canva for Education has transformed my classroom. Students are more engaged and excited to learn with visually appealing materials. #edtech #teaching",
-    "timestamp": "2023-05-20T13:45:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the lack of advanced editing features in @canva's free version. I wish there were more options available. #editingtools #disappointed",
-    "timestamp": "2023-05-20T14:00:00Z"
-  },
-  {
-    "text": "Canva Mobile App has become my go-to design tool on the go. It's convenient and allows me to create on my smartphone. #design #mobileapp",
-    "timestamp": "2023-05-20T14:15:00Z"
-  },
-  {
-    "text": "Just customized my brand's color palette in Canva Brand Kit. Now my designs have a consistent and professional look! #branding #design",
-    "timestamp": "2023-05-20T14:30:00Z"
-  },
-  {
-    "text": "Feeling frustrated by the lack of integration options with third-party tools in @canva. It limits my workflow and efficiency. #integrationissues #frustrated",
-    "timestamp": "2023-05-20T14:45:00Z"
-  },
-  {
-    "text": "Canva Video has revolutionized my social media strategy. The eye-catching videos I create are generating more engagement! #videomarketing #socialmedia",
-    "timestamp": "2023-05-20T15:00:00Z"
-  },
-  {
-    "text": "Feeling impressed by the vast library of templates in @canva. They provide great starting points for my designs. #templates #designinspiration",
-    "timestamp": "2023-05-20T15:15:00Z"
-  },
-  {
-    "text": "Canva Pro has elevated my design game to a whole new level. The additional features and resources are worth every penny! #canvapro #design",
-    "timestamp": "2023-05-20T15:30:00Z"
-  },
-  {
-    "text": "Feeling a bit overwhelmed by the learning curve of @canva's advanced features. It takes time to master them, but the results are rewarding. #learningcurve #design",
-    "timestamp": "2023-05-20T15:45:00Z"
-  },
-  {
-    "text": "Canva for Education has made a significant impact on student engagement. It's a game-changer for educators! #education #teachingresources",
-    "timestamp": "2023-05-20T16:00:00Z"
-  },
-  {
-    "text": "Just designed a captivating flyer using @canva. The intuitive interface and extensive design elements made the process a breeze! #design #flyer",
-    "timestamp": "2023-05-20T16:15:00Z"
-  },
-  {
-    "text": "Feeling underwhelmed by the lack of customization options for certain design elements in @canva. It limits my creative freedom. #customization #design",
-    "timestamp": "2023-05-20T16:30:00Z"
-  },
-  {
-    "text": "Canva Print has saved me so much time and effort. The quality of the prints is excellent, and the ordering process is seamless! #printing #canvaprint",
-    "timestamp": "2023-05-20T16:45:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the occasional lag and slow loading times in @canva's design editor. It disrupts my workflow and productivity. #lagging #frustrated",
-    "timestamp": "2023-05-20T17:00:00Z"
-  },
-  {
-    "text": "Canva Video is a powerful tool for creating engaging content, but I wish there were more advanced video editing features available. #videomarketing #editingtools",
-    "timestamp": "2023-05-20T17:15:00Z"
-  },
-  {
-    "text": "Feeling grateful for the vast selection of free design elements in @canva. It allows me to create professional-looking designs without breaking the bank. #grateful #freeresources",
-    "timestamp": "2023-05-20T17:30:00Z"
-  },
-  {
-    "text": "Canva for Education has made teaching more interactive and fun. The students love the visually appealing materials! #edtech #teaching",
-    "timestamp": "2023-05-20T17:45:00Z"
-  },
-  {
-    "text": "Just received my beautifully printed designs from @canva Print. The attention to detail and print quality exceeded my expectations! #printing #canvaprint",
-    "timestamp": "2023-05-20T18:00:00Z"
-  },
-  {
-    "text": "Feeling inspired by the design community in @canva. Seeing other designers' work motivates me to improve and explore new styles. #designcommunity #inspiration",
-    "timestamp": "2023-05-20T18:15:00Z"
-  },
-  {
-    "text": "Canva Pro's collaboration feature is a game-changer for my team. We can work together seamlessly and bring our ideas to life. #collaboration #teamwork",
-    "timestamp": "2023-05-20T18:30:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the lack of advanced image editing options in @canva. It falls short when it comes to precise image manipulation. #imageediting #disappointed",
-    "timestamp": "2023-05-20T18:45:00Z"
-  },
-  {
-    "text": "Just designed an eye-catching social media banner using @canva. It's sure to make my brand stand out! #socialmedia #design",
-    "timestamp": "2023-05-20T19:00:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the occasional glitches and crashes in @canva's mobile app. It disrupts my design process when I'm on the go. #appissues #frustrated",
-    "timestamp": "2023-05-20T19:15:00Z"
-  },
-  {
-    "text": "Canva Brand Kit has made it easier to maintain consistency in my branding. It's a valuable asset for building a strong brand identity! #branding #design",
-    "timestamp": "2023-05-20T19:30:00Z"
-  },
-  {
-    "text": "Feeling a bit overwhelmed by the extensive options in @canva's design editor. It takes time to find the right elements for my design. #options #overwhelmed",
-    "timestamp": "2023-05-20T19:45:00Z"
-  },
-  {
-    "text": "Canva Video has transformed my video marketing strategy. The pre-built templates and easy editing tools are a time-saver! #videomarketing #canvavideo",
-    "timestamp": "2023-05-20T20:00:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited number of export formats available in @canva. It makes it challenging to use my designs in other applications. #exportformats #disappointed",
-    "timestamp": "2023-05-20T20:15:00Z"
-  },
-  {
-    "text": "Canva's design tutorials have been incredibly helpful in improving my design skills. I appreciate the educational resources they provide. #designtutorials #learning",
-    "timestamp": "2023-05-20T20:30:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the lack of design customization options in @canva's mobile app. It limits my ability to create unique designs. #customization #mobileapp",
-    "timestamp": "2023-05-20T20:45:00Z"
-  },
-  {
-    "text": "Just received positive feedback on the brochure I designed with @canva. It's rewarding to see my work appreciated! #design #brochure",
-    "timestamp": "2023-05-20T21:00:00Z"
-  },
-  {
-    "text": "Feeling a sense of accomplishment after creating a visually stunning infographic with @canva. It effectively communicates complex information! #infographic #design",
-    "timestamp": "2023-05-20T21:15:00Z"
-  },
-  {
-    "text": "Canva Pro's background remover tool has saved me so much time. It's a game-changer for isolating elements in my designs! #backgroundremover #canvapro",
-    "timestamp": "2023-05-20T21:30:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed by the abundance of design templates in @canva. It can be difficult to choose the right one for my project. #designtemplates #overwhelmed",
-    "timestamp": "2023-05-20T21:45:00Z"
-  },
-  {
-    "text": "Canva's drag-and-drop interface makes designing effortless. I love how intuitive it is to create stunning visuals! #design #userfriendly",
-    "timestamp": "2023-05-20T22:00:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the limited control over the design grid in @canva. It can be challenging to align elements precisely. #designtools #frustrated",
-    "timestamp": "2023-05-20T22:15:00Z"
-  },
-  {
-    "text": "Canva Video's built-in stock footage library is a treasure trove of visual assets. It makes it easy to find the perfect clips for my videos! #stockfootage #canvavideo",
-    "timestamp": "2023-05-20T22:30:00Z"
-  },
-  {
-    "text": "Feeling a sense of accomplishment after designing my business cards using @canva. They look professional and reflect my brand perfectly! #businesscards #design",
-    "timestamp": "2023-05-20T22:45:00Z"
-  },
-  {
-    "text": "Canva's wide range of fonts allows me to experiment and find the perfect typography for my designs. It's a typography lover's dream! #typography #design",
-    "timestamp": "2023-05-20T23:00:00Z"
-  },
-  {
-    "text": "Feeling frustrated by the occasional crashes in @canva's design editor. It disrupts my workflow and causes frustration. #crashes #frustrated",
-    "timestamp": "2023-05-20T23:15:00Z"
-  },
-  {
-    "text": "Canva for Education has transformed the way I create teaching materials. It's a valuable resource for engaging students! #education #teachingresources",
-    "timestamp": "2023-05-20T23:30:00Z"
-  },
-  {
-    "text": "Just designed a visually striking poster using @canva. It's sure to grab attention and create buzz for my event! #posterdesign #design",
-    "timestamp": "2023-05-20T23:45:00Z"
-  },
-  {
-    "text": "Feeling impressed with the ease of resizing my designs for different social media platforms using @canva Pro. It saves me time and effort! #design #resizetool",
-    "timestamp": "2023-05-21T00:00:00Z"
-  },
-  {
-    "text": "Canva's extensive library of stock photos is a game-changer for finding the perfect visuals for my designs. It's a time-saver! #stockphotos #design",
-    "timestamp": "2023-05-21T00:15:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for layering and blending effects in @canva. It restricts my creativity in certain designs. #layering #disappointed",
-    "timestamp": "2023-05-21T00:30:00Z"
-  },
-  {
-    "text": "Canva Video has made video editing accessible to everyone. It's perfect for beginners who want to create professional-looking videos! #videomarketing #canvavideo",
-    "timestamp": "2023-05-21T00:45:00Z"
-  },
-  {
-    "text": "Feeling a bit overwhelmed by the learning curve of @canva's advanced animation features. It takes practice to master them. #animation #learningcurve",
-    "timestamp": "2023-05-21T01:00:00Z"
-  },
-  {
-    "text": "Canva for Education has made lesson planning more efficient and visually appealing. It's a must-have tool for teachers! #edtech #lessonplanning",
-    "timestamp": "2023-05-21T01:15:00Z"
-  },
-  {
-    "text": "Just created a beautiful ebook cover using @canva. The templates and design elements make it easy to create professional covers! #ebook #design",
-    "timestamp": "2023-05-21T01:30:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the occasional lag when working with complex designs in @canva. It slows down my workflow and causes frustration. #lagging #frustrated",
-    "timestamp": "2023-05-21T01:45:00Z"
-  },
-  {
-    "text": "Canva's design tutorials have helped me improve my graphic design skills tremendously. I'm grateful for the guidance they provide. #designtutorials #learning",
-    "timestamp": "2023-05-21T02:00:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for 3D design in @canva. It falls short when it comes to creating three-dimensional visuals. #3Ddesign #disappointed",
-    "timestamp": "2023-05-21T02:15:00Z"
-  },
-  {
-    "text": "Canva Pro's team collaboration feature has made it easier for my colleagues and me to work together on design projects. #collaboration #teamwork",
-    "timestamp": "2023-05-21T02:30:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed by the extensive library of design elements in @canva. It can be challenging to find the perfect ones for my projects. #designelements #overwhelmed",
-    "timestamp": "2023-05-21T02:45:00Z"
-  },
-  {
-    "text": "Canva Print's quality and attention to detail never disappoint. I'm always impressed by the professional prints I receive! #printing #canvaprint",
-    "timestamp": "2023-05-21T03:00:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the occasional freezing and unresponsiveness of @canva's mobile app. It disrupts my design process when I'm on the go. #appissues #frustrated",
-    "timestamp": "2023-05-21T03:15:00Z"
-  },
-  {
-    "text": "Canva Brand Kit has made it easier for me to maintain consistency across all my design assets. It's a game-changer for branding! #branding #design",
-    "timestamp": "2023-05-21T03:30:00Z"
-  },
-  {
-    "text": "Feeling a bit overwhelmed by the multitude of customization options in @canva. It takes time to explore and find the right ones for my design. #customization #overwhelmed",
-    "timestamp": "2023-05-21T03:45:00Z"
-  },
-  {
-    "text": "Just created an engaging video ad using @canva. The pre-built templates and easy-to-use tools make video creation a breeze! #videoad #canvavideo",
-    "timestamp": "2023-05-21T04:00:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited file format options for exporting designs in @canva. It can be inconvenient for specific needs. #exportformats #disappointed",
-    "timestamp": "2023-05-21T04:15:00Z"
-  },
-  {
-    "text": "Canva's design community is a constant source of inspiration. I love seeing the amazing work created by other designers! #designcommunity #inspiration",
-    "timestamp": "2023-05-21T04:30:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the limited functionality of the alignment tools in @canva. It can be challenging to achieve precise alignment. #alignment #frustrated",
-    "timestamp": "2023-05-21T04:45:00Z"
-  },
-  {
-    "text": "Canva Video's easy-to-use templates have been a lifesaver for my video projects. It saves me a lot of time and effort! #videomarketing #canvavideo",
-    "timestamp": "2023-05-21T05:00:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for exporting transparent backgrounds in @canva. It restricts the usability of my designs. #transparency #disappointed",
-    "timestamp": "2023-05-21T05:15:00Z"
-  },
-  {
-    "text": "Canva's design tutorials have been instrumental in expanding my design knowledge and skills. I appreciate the educational resources they provide. #designtutorials #learning",
-    "timestamp": "2023-05-21T05:30:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the limited control over design layers in @canva's mobile app. It limits my ability to create complex designs on the go. #designlayers #frustrated",
-    "timestamp": "2023-05-21T05:45:00Z"
-  },
-  {
-    "text": "Just received negative feedback on the brochure I designed with @canva. It's disappointing to see my work not resonating with the audience. #design #feedback",
-    "timestamp": "2023-05-21T06:00:00Z"
-  },
-  {
-    "text": "Feeling a sense of frustration after struggling to create a visually appealing infographic with @canva. It didn't turn out as expected. #infographic #frustration",
-    "timestamp": "2023-05-21T06:15:00Z"
-  },
-  {
-    "text": "Canva Pro's background remover tool falls short in accurately removing complex backgrounds. It requires manual touch-ups. #backgroundremover #canvapro",
-    "timestamp": "2023-05-21T06:30:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited font customization options in @canva. It restricts my ability to create unique typographic designs. #fontcustomization #disappointed",
-    "timestamp": "2023-05-21T06:45:00Z"
-  },
-  {
-    "text": "Canva Video's user interface can be overwhelming for beginners. It takes time to navigate and understand all the features. #videomarketing #canvavideo",
-    "timestamp": "2023-05-21T07:00:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the learning curve of @canva's animation features. It requires time and practice to create professional animations. #animation #learningcurve",
-    "timestamp": "2023-05-21T07:15:00Z"
-  },
-  {
-    "text": "Canva for Education's limited integration with learning management systems is a drawback. It would be beneficial to have seamless integration. #edtech #integration",
-    "timestamp": "2023-05-21T07:30:00Z"
-  },
-  {
-    "text": "Just created a business flyer using @canva, but the limited customization options made it challenging to achieve the desired look. #businessflyer #design",
-    "timestamp": "2023-05-21T07:45:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for 3D effects in @canva. It falls short when it comes to creating realistic three-dimensional visuals. #3Deffects #disappointed",
-    "timestamp": "2023-05-21T08:00:00Z"
-  },
-  {
-    "text": "Canva Pro's team collaboration feature has occasional glitches, causing delays in project timelines. It disrupts the workflow. #collaboration #glitches",
-    "timestamp": "2023-05-21T08:15:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed by the extensive library of design elements in @canva. It can be challenging to find the right ones that suit my style. #designelements #overwhelmed",
-    "timestamp": "2023-05-21T08:30:00Z"
-  },
-  {
-    "text": "Canva Print's delivery times can be longer than expected, which can be frustrating when there's a tight deadline. #printing #canvaprint",
-    "timestamp": "2023-05-21T08:45:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the occasional lag when working on complex designs in @canva. It slows down my workflow and causes frustration. #lagging #frustrated",
-    "timestamp": "2023-05-21T09:00:00Z"
-  },
-  {
-    "text": "Canva's design tutorials have been a valuable resource for learning new techniques and improving my design skills. #designtutorials #learning",
-    "timestamp": "2023-05-21T09:15:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for realistic shadows and reflections in @canva. It falls short when it comes to creating lifelike effects. #shadows #disappointed",
-    "timestamp": "2023-05-21T09:30:00Z"
-  },
-  {
-    "text": "Canva Pro's collaboration feature has occasional sync issues, causing confusion and delays in the design process. #collaboration #syncissues",
-    "timestamp": "2023-05-21T09:45:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed by the multitude of customization options in @canva. It takes time and experimentation to find the right ones for my design. #customization #overwhelmed",
-    "timestamp": "2023-05-21T10:00:00Z"
-  },
-  {
-    "text": "Just created an animated social media post using @canva. The animation tools are limited, and it's challenging to create complex animations. #animatedpost #canvaanimation",
-    "timestamp": "2023-05-21T10:15:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited file format options for exporting designs in @canva. It can be inconvenient for specific project requirements. #exportformats #disappointed",
-    "timestamp": "2023-05-21T10:30:00Z"
-  },
-  {
-    "text": "Canva's design community provides a platform to share and receive feedback on designs. However, sometimes the feedback can be overly critical. #designcommunity #feedback",
-    "timestamp": "2023-05-21T10:45:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the limited control over design alignment in @canva. It can be challenging to achieve precise alignment across elements. #alignment #frustrated",
-    "timestamp": "2023-05-21T11:00:00Z"
-  },
-  {
-    "text": "Canva Video's pre-built templates are great for quick video creation. However, they lack variety, and it can be difficult to find the perfect fit. #videomarketing #canvavideo",
-    "timestamp": "2023-05-21T11:15:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for exporting transparent backgrounds in @canva. It restricts the versatility of my designs. #transparency #disappointed",
-    "timestamp": "2023-05-21T11:30:00Z"
-  },
-  {
-    "text": "Canva's design tutorials have been helpful in expanding my design knowledge, but some tutorials lack in-depth explanations. #designtutorials #learning",
-    "timestamp": "2023-05-21T11:45:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the limitations of @canva's mobile app when it comes to complex design projects. It's not as feature-rich as the desktop version. #mobileapp #frustrated",
-    "timestamp": "2023-05-21T12:00:00Z"
-  },
-  {
-    "text": "Just received negative feedback on the logo design I created with @canva. It's disheartening when my work doesn't meet the client's expectations. #logodesign #feedback",
-    "timestamp": "2023-05-21T12:15:00Z"
-  },
-  {
-    "text": "Feeling a bit frustrated after struggling to create a visually cohesive social media feed using @canva. It's challenging to maintain consistency. #socialmediafeed #frustration",
-    "timestamp": "2023-05-21T12:30:00Z"
-  },
-  {
-    "text": "Canva Pro's background remover tool doesn't always produce clean cutouts, requiring manual adjustments. #backgroundremover #canvapro",
-    "timestamp": "2023-05-21T12:45:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited font selection in @canva. It can be challenging to find unique and distinctive fonts for my designs. #fontselection #disappointed",
-    "timestamp": "2023-05-21T13:00:00Z"
-  },
-  {
-    "text": "Canva Video's user interface can be overwhelming for beginners. It takes time to familiarize yourself with the layout and functionality. #videomarketing #canvavideo",
-    "timestamp": "2023-05-21T13:15:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the learning curve of @canva's animation features. It requires time and practice to master advanced animations. #animation #learningcurve",
-    "timestamp": "2023-05-21T13:30:00Z"
-  },
-  {
-    "text": "Canva for Education's integration with learning management systems is helpful, but there are occasional compatibility issues. #edtech #integration",
-    "timestamp": "2023-05-21T13:45:00Z"
-  },
-  {
-    "text": "Just created a poster design using @canva, but the limited customization options made it challenging to achieve the desired visual impact. #posterdesign #design",
-    "timestamp": "2023-05-21T14:00:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for realistic 3D effects in @canva. It falls short when it comes to creating immersive visuals. #3Deffects #disappointed",
-    "timestamp": "2023-05-21T14:15:00Z"
-  },
-  {
-    "text": "Canva Pro's collaboration feature is beneficial for teamwork, but there are occasional glitches that disrupt the collaborative process. #collaboration #glitches",
-    "timestamp": "2023-05-21T14:30:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed by the extensive library of design elements in @canva. It can be time-consuming to search for the perfect elements. #designelements #overwhelmed",
-    "timestamp": "2023-05-21T14:45:00Z"
-  },
-  {
-    "text": "Canva Print's print quality is generally good, but I've experienced occasional inconsistencies in color accuracy. #printing #canvaprint",
-    "timestamp": "2023-05-21T15:00:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the occasional lag and unresponsiveness of @canva's mobile app. It hinders the design process when I'm working on the go. #appissues #frustrated",
-    "timestamp": "2023-05-21T15:15:00Z"
-  },
-  {
-    "text": "Canva Brand Kit has been helpful in maintaining consistent branding across my designs. However, it lacks some advanced customization options. #branding #design",
-    "timestamp": "2023-05-21T15:30:00Z"
-  },
-  {
-    "text": "Feeling a bit overwhelmed by the multitude of customization options in @canva. It takes time and experimentation to find the right ones for my design. #customization #overwhelmed",
-    "timestamp": "2023-05-21T15:45:00Z"
-  },
-  {
-    "text": "Just created an engaging social media video using @canva. The pre-built templates and intuitive editing tools made the process enjoyable! #socialmediavideo #canvavideo",
-    "timestamp": "2023-05-21T16:00:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited file format options for exporting designs in @canva. It can be inconvenient when I need to work with specific formats. #exportformats #disappointed",
-    "timestamp": "2023-05-21T16:15:00Z"
-  },
-  {
-    "text": "Canva's design community is a great source of inspiration and support. It's inspiring to see the creative work of other designers! #designcommunity #inspiration",
-    "timestamp": "2023-05-21T16:30:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the limited control over design alignment in @canva. It can be challenging to achieve pixel-perfect alignment. #alignment #frustrated",
-    "timestamp": "2023-05-21T16:45:00Z"
-  },
-  {
-    "text": "Canva Video's templates have been a time-saving solution for my video marketing campaigns. They make it easy to create professional-looking videos! #videomarketing #canvavideo",
-    "timestamp": "2023-05-21T17:00:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for exporting designs with transparent backgrounds in @canva. It restricts the versatility of my designs. #transparency #disappointed",
-    "timestamp": "2023-05-21T17:15:00Z"
-  },
-  {
-    "text": "Canva's design tutorials have been a valuable resource for improving my design skills. The step-by-step instructions are easy to follow. #designtutorials #learning",
-    "timestamp": "2023-05-21T17:30:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the limited control over design layers in @canva's mobile app. It limits my ability to create complex designs on the go. #designlayers #frustrated",
-    "timestamp": "2023-05-21T17:45:00Z"
-  },
-  {
-    "text": "Just received negative feedback on the packaging design I created with @canva. It's disheartening when my work doesn't resonate with the target audience. #packagingdesign #feedback",
-    "timestamp": "2023-05-21T18:00:00Z"
-  },
-  {
-    "text": "Feeling a sense of frustration after struggling to create a visually appealing infographic with @canva. It didn't turn out as expected. #infographic #frustration",
-    "timestamp": "2023-05-21T18:15:00Z"
-  },
-  {
-    "text": "Canva Pro's background remover tool falls short in accurately removing complex backgrounds. It often requires manual touch-ups. #backgroundremover #canvapro",
-    "timestamp": "2023-05-21T18:30:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited font customization options in @canva. It restricts my ability to create unique and personalized typographic designs. #fontcustomization #disappointed",
-    "timestamp": "2023-05-21T18:45:00Z"
-  },
-  {
-    "text": "Canva Video's user interface can be overwhelming for beginners. It takes time to navigate and understand all the features and options. #videomarketing #canvavideo",
-    "timestamp": "2023-05-21T19:00:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the learning curve of @canva's animation features. It requires time and practice to create complex and polished animations. #animation #learningcurve",
-    "timestamp": "2023-05-21T19:15:00Z"
-  },
-  {
-    "text": "Canva for Education's limited integration with learning management systems is a drawback. Seamless integration would enhance the overall educational experience. #edtech #integration",
-    "timestamp": "2023-05-21T19:30:00Z"
-  },
-  {
-    "text": "Just created a business flyer using @canva, but the limited customization options made it challenging to achieve the desired professional look. #businessflyer #design",
-    "timestamp": "2023-05-21T19:45:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for 3D effects in @canva. It falls short when it comes to creating realistic and immersive three-dimensional visuals. #3Deffects #disappointed",
-    "timestamp": "2023-05-21T20:00:00Z"
-  },
-  {
-    "text": "Canva Pro's team collaboration feature has occasional glitches, causing delays and communication issues during collaborative projects. #collaboration #glitches",
-    "timestamp": "2023-05-21T20:15:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed by the extensive library of design elements in @canva. It can be challenging to find the right ones that match my style and vision. #designelements #overwhelmed",
-    "timestamp": "2023-05-21T20:30:00Z"
-  },
-  {
-    "text": "Canva Print's delivery times can be longer than expected, which can be frustrating when there's a tight deadline for printed materials. #printing #canvaprint",
-    "timestamp": "2023-05-21T20:45:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the occasional lag when working on complex designs in @canva. It slows down my workflow and hampers productivity. #lagging #frustrated",
-    "timestamp": "2023-05-21T21:00:00Z"
-  },
-  {
-    "text": "Canva's design tutorials have been a valuable resource for learning new techniques and improving my design skills. They provide actionable insights and tips. #designtutorials #learning",
-    "timestamp": "2023-05-21T21:15:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for realistic shadows and reflections in @canva. It falls short when it comes to creating lifelike and impactful effects. #shadows #disappointed",
-    "timestamp": "2023-05-21T21:30:00Z"
-  },
-  {
-    "text": "Canva Pro's collaboration feature has occasional sync issues, causing confusion and coordination problems among team members. #collaboration #syncissues",
-    "timestamp": "2023-05-21T21:45:00Z"
-  },
-  {
-    "text": "Feeling overwhelmed by the multitude of customization options in @canva. It takes time and experimentation to find the right ones that align with my design vision. #customization #overwhelmed",
-    "timestamp": "2023-05-21T22:00:00Z"
-  },
-  {
-    "text": "Just created an eye-catching social media post using @canva. The intuitive interface and drag-and-drop functionality made the design process effortless! #socialmediapost #canva",
-    "timestamp": "2023-05-21T22:15:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited file format options for exporting designs in @canva. It can be frustrating when I need to work with specific formats. #exportformats #disappointed",
-    "timestamp": "2023-05-21T22:30:00Z"
-  },
-  {
-    "text": "Canva's design community has been a great source of inspiration and feedback. It's wonderful to connect with like-minded designers and share creative ideas! #designcommunity #inspiration",
-    "timestamp": "2023-05-21T22:45:00Z"
-  },
-  {
-    "text": "Feeling frustrated with the limited control over design alignment in @canva. It can be challenging to achieve pixel-perfect alignment across elements. #alignment #frustrated",
-    "timestamp": "2023-05-21T23:00:00Z"
-  },
-  {
-    "text": "Canva Video's templates have been a game-changer for my video marketing efforts. They save time and make it easy to create professional-looking videos! #videomarketing #canvavideo",
-    "timestamp": "2023-05-21T23:15:00Z"
-  },
-  {
-    "text": "Feeling disappointed with the limited options for exporting designs with transparent backgrounds in @canva. It limits the versatility of my designs. #transparency #disappointed",
-    "timestamp": "2023-05-21T23:30:00Z"
-  },
-  {
-    "text": "Canva's design tutorials have been a valuable learning resource for me. They have helped me enhance my design skills and explore new creative techniques. #designtutorials #learning",
-    "timestamp": "2023-05-21T23:45:00Z"
-  }
-]
+data = [{'text': 'Just designed a stunning poster for my upcoming event using @canva! Feeling excited to share it with everyone! #design #eventplanning',
+  'timestamp': '2022-02-09T15:23:08Z'},
+ {'text': "Started using @canva Pro today, and I'm already blown away by the additional features and templates! #graphicdesign #canvapro",
+  'timestamp': '2022-01-26T05:34:30Z'},
+ {'text': "Feeling grateful for @canva's user-friendly interface that makes it so easy to create professional-looking social media graphics! #grateful #design",
+  'timestamp': '2022-01-25T04:25:39Z'},
+ {'text': "Just ordered business cards from @canva Print! Can't wait to see how they turn out. #printing #businesscards",
+  'timestamp': '2022-01-31T07:26:54Z'},
+ {'text': 'Feeling inspired to create an eye-catching infographic for my next presentation using @canva! #infographic #presentation',
+  'timestamp': '2022-02-05T12:42:21Z'},
+ {'text': "Tried out the Canva mobile app today, and it's a game-changer! Now I can design on the go. #design #mobileapp",
+  'timestamp': '2022-02-04T16:19:59Z'},
+ {'text': 'Canva Brand Kit has made it so much easier for me to maintain a consistent visual identity for my brand. #branding #design',
+  'timestamp': '2022-01-06T15:28:57Z'},
+ {'text': "Just watched a tutorial on Canva Video and I'm excited to start creating engaging videos for my social media campaigns! #videomarketing #canvavideo",
+  'timestamp': '2022-01-26T04:56:05Z'},
+ {'text': "Feeling proud of my latest design created with @canva! It's amazing how this platform helps bring my ideas to life. #design #creativity",
+  'timestamp': '2022-02-13T09:31:03Z'},
+ {'text': "Canva for Education is a game-changer for teachers and students! It's empowering us to create visually engaging educational materials. #education #edtech",
+  'timestamp': '2022-01-16T14:31:29Z'},
+ {'text': 'Just received my prints from @canva Print, and they turned out fantastic! The quality is top-notch. #printing #canvaprint',
+  'timestamp': '2022-01-19T18:11:05Z'},
+ {'text': 'Feeling overwhelmed with design ideas after exploring the vast library of templates on @canva. So many possibilities! #designinspiration #creativity',
+  'timestamp': '2022-01-23T21:27:28Z'},
+ {'text': 'Canva Pro has been a game-changer for my business. The advanced design tools have elevated the quality of my graphics. #canvapro #graphicdesign',
+  'timestamp': '2022-02-12T18:33:30Z'},
+ {'text': 'Feeling excited to collaborate with my team on a project using @canva! The real-time collaboration feature makes it so convenient. #collaboration #teamwork',
+  'timestamp': '2022-01-18T10:47:06Z'},
+ {'text': "Just created a beautiful social media post with @canva and it's getting so much engagement! #socialmediamarketing #design",
+  'timestamp': '2022-01-22T10:20:39Z'},
+ {'text': 'Feeling productive today thanks to @canva! The intuitive design editor helps me save time while creating stunning visuals. #productivity #design',
+  'timestamp': '2022-02-02T21:21:02Z'},
+ {'text': 'Canva Video has taken my social media presence to the next level. Videos are grabbing more attention and increasing engagement! #videomarketing #canvavideo',
+  'timestamp': '2022-01-11T20:02:21Z'},
+ {'text': "Just discovered the Canva Print feature, and I'm impressed by the range of print materials available. So convenient! #printing #canvaprint",
+  'timestamp': '2022-01-16T22:57:29Z'},
+ {'text': 'Feeling relieved that I can resize my designs effortlessly with @canva Pro. No more manual resizing for different platforms! #design #efficiency',
+  'timestamp': '2022-01-08T08:53:38Z'},
+ {'text': 'Canva for Education is a game-changer for remote learning. It helps teachers create engaging materials that keep students motivated. #edtech #remotelearning',
+  'timestamp': '2022-02-07T22:15:22Z'},
+ {'text': "Feeling grateful for @canva's extensive library of free images and icons. They add the perfect touch to my designs! #grateful #designresources",
+  'timestamp': '2022-01-20T02:43:08Z'},
+ {'text': "Canva Mobile App has become my go-to tool for quick design edits and tweaks. It's so convenient to have it on my phone! #design #mobileapp",
+  'timestamp': '2022-01-04T15:59:17Z'},
+ {'text': "Just customized my brand's color palette in Canva Brand Kit. Now all my designs reflect my brand's identity seamlessly! #branding #design",
+  'timestamp': '2022-01-09T00:35:33Z'},
+ {'text': 'Feeling thrilled to have access to premium templates and elements with @canva Pro. They make my designs look even more professional! #premiumfeatures #design',
+  'timestamp': '2022-01-27T10:07:03Z'},
+ {'text': 'Canva Video has simplified the process of creating captivating animations. My social media posts have never looked better! #animation #canvavideo',
+  'timestamp': '2022-01-21T10:56:24Z'},
+ {'text': "Just received a positive response to my business card design created with @canva. It's leaving a lasting impression on potential clients! #businesscards #design",
+  'timestamp': '2022-01-08T13:55:07Z'},
+ {'text': 'Feeling inspired by the diverse range of fonts available in @canva. They help me convey the right tone and style in my designs. #typography #design',
+  'timestamp': '2022-01-12T19:43:26Z'},
+ {'text': 'Canva for Education is a lifesaver for creating engaging worksheets and activities. Students love the visual elements! #education #teachingresources',
+  'timestamp': '2022-01-25T11:55:54Z'},
+ {'text': "Just designed a captivating flyer for my event using @canva. It's sure to grab attention and boost attendance! #eventpromotion #design",
+  'timestamp': '2022-01-18T10:55:58Z'},
+ {'text': "Feeling accomplished after successfully resizing my design for different social media platforms using @canva Pro. It's so effortless! #design #resizetool",
+  'timestamp': '2022-02-11T14:35:55Z'},
+ {'text': 'Canva Print has made my life easier by delivering high-quality prints right to my doorstep. No more trips to the print shop! #printing #convenience',
+  'timestamp': '2022-01-28T17:03:00Z'},
+ {'text': 'Feeling impressed by the wide range of infographic templates available in @canva. They help me convey complex information visually. #infographic #design',
+  'timestamp': '2022-02-04T23:01:24Z'},
+ {'text': "Canva Pro's collaboration feature has made teamwork seamless. Now, multiple team members can work on a design simultaneously! #collaboration #teamwork",
+  'timestamp': '2022-02-06T23:06:18Z'},
+ {'text': "Just created a captivating video using @canva Video. It's perfect for showcasing my brand's story on social media! #videomarketing #branding",
+  'timestamp': '2022-01-14T10:13:47Z'},
+ {'text': "Feeling thankful for @canva's intuitive drag-and-drop interface. It makes designing fun and hassle-free! #grateful #design",
+  'timestamp': '2022-02-03T19:17:28Z'},
+ {'text': 'Canva for Education has revolutionized the way I create lesson plans. The visual elements make learning more engaging for students. #edtech #teaching',
+  'timestamp': '2022-02-05T05:57:35Z'},
+ {'text': 'Just received my beautifully designed prints from @canva Print. The attention to detail is impeccable! #printing #canvaprint',
+  'timestamp': '2022-01-16T10:34:12Z'},
+ {'text': "Feeling motivated to experiment with different design styles after browsing through @canva's vast collection of templates. #designinspiration #creativity",
+  'timestamp': '2022-01-04T18:56:26Z'},
+ {'text': "Canva Pro's premium elements and effects have added a touch of elegance to my designs. They help me stand out from the crowd! #canvapro #design",
+  'timestamp': '2022-02-04T23:28:58Z'},
+ {'text': "Feeling excited to try out the new animation features in Canva Video. It's a great way to capture attention on social media! #animation #canvavideo",
+  'timestamp': '2022-01-16T07:30:28Z'},
+ {'text': "Just received positive feedback on my business card design created with @canva. It's making a memorable impression! #businesscards #design",
+  'timestamp': '2022-01-17T02:09:13Z'},
+ {'text': 'Feeling inspired by the versatility of fonts available in @canva. They allow me to express my creativity and enhance my designs. #typography #design',
+  'timestamp': '2022-01-13T12:46:16Z'},
+ {'text': "Canva for Education has transformed the way I create teaching materials. It's a valuable resource for engaging students visually! #education #teachingresources",
+  'timestamp': '2022-01-18T15:06:16Z'},
+ {'text': "Just designed an eye-catching poster for my event using @canva. It's sure to attract a crowd! #eventpromotion #design",
+  'timestamp': '2022-01-16T10:11:11Z'},
+ {'text': "Feeling accomplished after effortlessly resizing my design for different social media platforms using @canva Pro. It's a time-saver! #design #resizetool",
+  'timestamp': '2022-01-21T10:00:37Z'},
+ {'text': "Canva Print's convenience is unbeatable. I can order prints without leaving my desk, and they always arrive in great quality! #printing #convenience",
+  'timestamp': '2022-01-09T17:01:41Z'},
+ {'text': 'Feeling inspired by the extensive library of infographic templates in @canva. They make it easy to create visually appealing data presentations. #infographic #design',
+  'timestamp': '2022-01-31T02:34:41Z'},
+ {'text': "Canva Pro's collaboration feature is a game-changer for my team. We can work together seamlessly and bring our ideas to life. #collaboration #teamwork",
+  'timestamp': '2022-01-29T12:46:02Z'},
+ {'text': "Just created an engaging video using @canva Video. It's perfect for capturing attention and conveying my brand's message! #videomarketing #branding",
+  'timestamp': '2022-01-22T04:03:27Z'},
+ {'text': "Feeling grateful for @canva's user-friendly interface. It allows me to design effortlessly and bring my ideas to life! #grateful #design",
+  'timestamp': '2022-02-08T03:33:41Z'},
+ {'text': "Canva for Education has made teaching more engaging and interactive. It's a fantastic tool for creating visually appealing learning materials. #edtech #teaching",
+  'timestamp': '2022-01-31T05:26:52Z'},
+ {'text': 'Just received my beautifully printed designs from @canva Print. The attention to detail is impeccable! #printing #canvaprint',
+  'timestamp': '2022-02-10T19:54:33Z'},
+ {'text': "Feeling inspired to explore different design styles after browsing @canva's vast collection of templates. So many possibilities! #designinspiration #creativity",
+  'timestamp': '2022-02-07T07:48:37Z'},
+ {'text': "Canva Pro's premium elements and effects have elevated the quality of my designs. They add that extra touch of professionalism! #canvapro #design",
+  'timestamp': '2022-01-06T12:09:12Z'},
+ {'text': "Feeling excited to experiment with the new animation features in Canva Video. It's a great way to make my designs more dynamic! #animation #canvavideo",
+  'timestamp': '2022-01-28T08:17:08Z'},
+ {'text': "Just received positive feedback on my business cards designed with @canva. They're leaving a lasting impression! #businesscards #design",
+  'timestamp': '2022-02-09T15:33:35Z'},
+ {'text': 'Feeling inspired by the wide variety of fonts available in @canva. They allow me to express my creativity and enhance my designs. #typography #design',
+  'timestamp': '2022-02-05T10:10:49Z'},
+ {'text': 'Canva for Education has revolutionized my teaching materials. The visual elements engage students and make learning fun! #education #teachingresources',
+  'timestamp': '2022-01-04T01:32:50Z'},
+ {'text': "Just designed a captivating flyer for my event using @canva. It's guaranteed to catch people's attention! #eventpromotion #design",
+  'timestamp': '2022-02-06T00:56:58Z'},
+ {'text': "Feeling accomplished after seamlessly resizing my design for different social media platforms using @canva Pro. It's a real time-saver! #design #resizetool",
+  'timestamp': '2022-01-22T16:32:41Z'},
+ {'text': "Just created a stunning social media post using @canva! It's incredible how easy it is to design professional-looking graphics. #design #socialmedia",
+  'timestamp': '2022-01-07T22:30:30Z'},
+ {'text': "Feeling frustrated with @canva's limited font options. It's challenging to find the perfect font for my design. #designstruggles #fonts",
+  'timestamp': '2022-01-31T06:36:18Z'},
+ {'text': 'Canva Video has taken my marketing game to new heights. The engaging videos I create are driving more conversions! #videomarketing #canvavideo',
+  'timestamp': '2022-01-29T07:06:04Z'},
+ {'text': "Feeling overwhelmed by the number of design options in @canva. Sometimes it's hard to choose and commit to a specific design. #designchoices #overwhelmed",
+  'timestamp': '2022-01-15T14:40:43Z'},
+ {'text': 'Canva Print is a lifesaver for my business. The print quality is exceptional, and the fast delivery is impressive! #printing #canvaprint',
+  'timestamp': '2022-01-07T01:59:01Z'},
+ {'text': "Just encountered a frustrating bug in @canva's design editor. It's affecting my workflow and causing delays. #techissues #frustrated",
+  'timestamp': '2022-02-06T04:22:10Z'},
+ {'text': "Feeling grateful for @canva's user-friendly interface. It makes designing enjoyable and accessible for everyone! #grateful #userexperience",
+  'timestamp': '2022-02-13T08:44:13Z'},
+ {'text': 'Canva for Education has transformed my classroom. Students are more engaged and excited to learn with visually appealing materials. #edtech #teaching',
+  'timestamp': '2022-01-07T08:48:55Z'},
+ {'text': "Feeling disappointed with the lack of advanced editing features in @canva's free version. I wish there were more options available. #editingtools #disappointed",
+  'timestamp': '2022-01-21T22:49:13Z'},
+ {'text': "Canva Mobile App has become my go-to design tool on the go. It's convenient and allows me to create on my smartphone. #design #mobileapp",
+  'timestamp': '2022-02-04T10:21:47Z'},
+ {'text': "Just customized my brand's color palette in Canva Brand Kit. Now my designs have a consistent and professional look! #branding #design",
+  'timestamp': '2022-02-04T10:57:46Z'},
+ {'text': 'Feeling frustrated by the lack of integration options with third-party tools in @canva. It limits my workflow and efficiency. #integrationissues #frustrated',
+  'timestamp': '2022-02-03T00:20:08Z'},
+ {'text': 'Canva Video has revolutionized my social media strategy. The eye-catching videos I create are generating more engagement! #videomarketing #socialmedia',
+  'timestamp': '2022-01-13T15:51:23Z'},
+ {'text': 'Feeling impressed by the vast library of templates in @canva. They provide great starting points for my designs. #templates #designinspiration',
+  'timestamp': '2022-02-07T05:58:37Z'},
+ {'text': 'Canva Pro has elevated my design game to a whole new level. The additional features and resources are worth every penny! #canvapro #design',
+  'timestamp': '2022-01-09T20:33:45Z'},
+ {'text': "Feeling a bit overwhelmed by the learning curve of @canva's advanced features. It takes time to master them, but the results are rewarding. #learningcurve #design",
+  'timestamp': '2022-01-27T01:40:53Z'},
+ {'text': "Canva for Education has made a significant impact on student engagement. It's a game-changer for educators! #education #teachingresources",
+  'timestamp': '2022-01-28T04:45:04Z'},
+ {'text': 'Just designed a captivating flyer using @canva. The intuitive interface and extensive design elements made the process a breeze! #design #flyer',
+  'timestamp': '2022-02-13T14:33:19Z'},
+ {'text': 'Feeling underwhelmed by the lack of customization options for certain design elements in @canva. It limits my creative freedom. #customization #design',
+  'timestamp': '2022-01-02T02:47:07Z'},
+ {'text': 'Canva Print has saved me so much time and effort. The quality of the prints is excellent, and the ordering process is seamless! #printing #canvaprint',
+  'timestamp': '2022-01-03T08:41:58Z'},
+ {'text': "Feeling frustrated with the occasional lag and slow loading times in @canva's design editor. It disrupts my workflow and productivity. #lagging #frustrated",
+  'timestamp': '2022-01-27T12:10:51Z'},
+ {'text': 'Canva Video is a powerful tool for creating engaging content, but I wish there were more advanced video editing features available. #videomarketing #editingtools',
+  'timestamp': '2022-01-15T14:02:38Z'},
+ {'text': 'Feeling grateful for the vast selection of free design elements in @canva. It allows me to create professional-looking designs without breaking the bank. #grateful #freeresources',
+  'timestamp': '2022-02-02T06:41:33Z'},
+ {'text': 'Canva for Education has made teaching more interactive and fun. The students love the visually appealing materials! #edtech #teaching',
+  'timestamp': '2022-02-03T03:55:59Z'},
+ {'text': 'Just received my beautifully printed designs from @canva Print. The attention to detail and print quality exceeded my expectations! #printing #canvaprint',
+  'timestamp': '2022-02-03T07:23:25Z'},
+ {'text': "Feeling inspired by the design community in @canva. Seeing other designers' work motivates me to improve and explore new styles. #designcommunity #inspiration",
+  'timestamp': '2022-01-14T05:40:00Z'},
+ {'text': "Canva Pro's collaboration feature is a game-changer for my team. We can work together seamlessly and bring our ideas to life. #collaboration #teamwork",
+  'timestamp': '2022-01-12T14:39:35Z'},
+ {'text': 'Feeling disappointed with the lack of advanced image editing options in @canva. It falls short when it comes to precise image manipulation. #imageediting #disappointed',
+  'timestamp': '2022-02-10T15:26:47Z'},
+ {'text': "Just designed an eye-catching social media banner using @canva. It's sure to make my brand stand out! #socialmedia #design",
+  'timestamp': '2022-01-14T05:58:17Z'},
+ {'text': "Feeling frustrated with the occasional glitches and crashes in @canva's mobile app. It disrupts my design process when I'm on the go. #appissues #frustrated",
+  'timestamp': '2022-01-08T16:11:11Z'},
+ {'text': "Canva Brand Kit has made it easier to maintain consistency in my branding. It's a valuable asset for building a strong brand identity! #branding #design",
+  'timestamp': '2022-01-25T19:49:24Z'},
+ {'text': "Feeling a bit overwhelmed by the extensive options in @canva's design editor. It takes time to find the right elements for my design. #options #overwhelmed",
+  'timestamp': '2022-01-05T10:32:16Z'},
+ {'text': 'Canva Video has transformed my video marketing strategy. The pre-built templates and easy editing tools are a time-saver! #videomarketing #canvavideo',
+  'timestamp': '2022-01-23T11:08:35Z'},
+ {'text': 'Feeling disappointed with the limited number of export formats available in @canva. It makes it challenging to use my designs in other applications. #exportformats #disappointed',
+  'timestamp': '2022-02-04T15:33:12Z'},
+ {'text': "Canva's design tutorials have been incredibly helpful in improving my design skills. I appreciate the educational resources they provide. #designtutorials #learning",
+  'timestamp': '2022-01-02T07:14:42Z'},
+ {'text': "Feeling frustrated with the lack of design customization options in @canva's mobile app. It limits my ability to create unique designs. #customization #mobileapp",
+  'timestamp': '2022-01-30T11:35:24Z'},
+ {'text': "Just received positive feedback on the brochure I designed with @canva. It's rewarding to see my work appreciated! #design #brochure",
+  'timestamp': '2022-01-27T10:41:13Z'},
+ {'text': 'Feeling a sense of accomplishment after creating a visually stunning infographic with @canva. It effectively communicates complex information! #infographic #design',
+  'timestamp': '2022-01-20T12:40:54Z'},
+ {'text': "Canva Pro's background remover tool has saved me so much time. It's a game-changer for isolating elements in my designs! #backgroundremover #canvapro",
+  'timestamp': '2022-01-24T00:35:46Z'},
+ {'text': 'Feeling overwhelmed by the abundance of design templates in @canva. It can be difficult to choose the right one for my project. #designtemplates #overwhelmed',
+  'timestamp': '2022-02-04T17:09:55Z'},
+ {'text': "Canva's drag-and-drop interface makes designing effortless. I love how intuitive it is to create stunning visuals! #design #userfriendly",
+  'timestamp': '2022-01-16T11:41:38Z'},
+ {'text': 'Feeling frustrated with the limited control over the design grid in @canva. It can be challenging to align elements precisely. #designtools #frustrated',
+  'timestamp': '2022-01-30T08:05:33Z'},
+ {'text': "Canva Video's built-in stock footage library is a treasure trove of visual assets. It makes it easy to find the perfect clips for my videos! #stockfootage #canvavideo",
+  'timestamp': '2022-02-11T14:46:11Z'},
+ {'text': 'Feeling a sense of accomplishment after designing my business cards using @canva. They look professional and reflect my brand perfectly! #businesscards #design',
+  'timestamp': '2022-02-04T05:35:40Z'},
+ {'text': "Canva's wide range of fonts allows me to experiment and find the perfect typography for my designs. It's a typography lover's dream! #typography #design",
+  'timestamp': '2022-02-05T17:29:34Z'},
+ {'text': "Feeling frustrated by the occasional crashes in @canva's design editor. It disrupts my workflow and causes frustration. #crashes #frustrated",
+  'timestamp': '2022-01-18T23:42:13Z'},
+ {'text': "Canva for Education has transformed the way I create teaching materials. It's a valuable resource for engaging students! #education #teachingresources",
+  'timestamp': '2022-01-14T17:10:16Z'},
+ {'text': "Just designed a visually striking poster using @canva. It's sure to grab attention and create buzz for my event! #posterdesign #design",
+  'timestamp': '2022-01-06T16:52:12Z'},
+ {'text': 'Feeling impressed with the ease of resizing my designs for different social media platforms using @canva Pro. It saves me time and effort! #design #resizetool',
+  'timestamp': '2022-01-20T06:26:07Z'},
+ {'text': "Canva's extensive library of stock photos is a game-changer for finding the perfect visuals for my designs. It's a time-saver! #stockphotos #design",
+  'timestamp': '2022-02-05T18:47:10Z'},
+ {'text': 'Feeling disappointed with the limited options for layering and blending effects in @canva. It restricts my creativity in certain designs. #layering #disappointed',
+  'timestamp': '2022-02-06T00:17:33Z'},
+ {'text': "Canva Video has made video editing accessible to everyone. It's perfect for beginners who want to create professional-looking videos! #videomarketing #canvavideo",
+  'timestamp': '2022-01-31T16:16:56Z'},
+ {'text': "Feeling a bit overwhelmed by the learning curve of @canva's advanced animation features. It takes practice to master them. #animation #learningcurve",
+  'timestamp': '2022-01-01T22:30:23Z'},
+ {'text': "Canva for Education has made lesson planning more efficient and visually appealing. It's a must-have tool for teachers! #edtech #lessonplanning",
+  'timestamp': '2022-01-24T05:38:23Z'},
+ {'text': 'Just created a beautiful ebook cover using @canva. The templates and design elements make it easy to create professional covers! #ebook #design',
+  'timestamp': '2022-01-01T11:30:11Z'},
+ {'text': 'Feeling frustrated with the occasional lag when working with complex designs in @canva. It slows down my workflow and causes frustration. #lagging #frustrated',
+  'timestamp': '2022-01-18T17:18:49Z'},
+ {'text': "Canva's design tutorials have helped me improve my graphic design skills tremendously. I'm grateful for the guidance they provide. #designtutorials #learning",
+  'timestamp': '2022-02-08T19:50:49Z'},
+ {'text': 'Feeling disappointed with the limited options for 3D design in @canva. It falls short when it comes to creating three-dimensional visuals. #3Ddesign #disappointed',
+  'timestamp': '2022-01-31T13:40:26Z'},
+ {'text': "Canva Pro's team collaboration feature has made it easier for my colleagues and me to work together on design projects. #collaboration #teamwork",
+  'timestamp': '2022-01-05T23:31:35Z'},
+ {'text': 'Feeling overwhelmed by the extensive library of design elements in @canva. It can be challenging to find the perfect ones for my projects. #designelements #overwhelmed',
+  'timestamp': '2022-01-20T01:43:38Z'},
+ {'text': "Canva Print's quality and attention to detail never disappoint. I'm always impressed by the professional prints I receive! #printing #canvaprint",
+  'timestamp': '2022-01-21T11:43:14Z'},
+ {'text': "Feeling frustrated with the occasional freezing and unresponsiveness of @canva's mobile app. It disrupts my design process when I'm on the go. #appissues #frustrated",
+  'timestamp': '2022-01-11T00:43:16Z'},
+ {'text': "Canva Brand Kit has made it easier for me to maintain consistency across all my design assets. It's a game-changer for branding! #branding #design",
+  'timestamp': '2022-02-06T20:33:37Z'},
+ {'text': 'Feeling a bit overwhelmed by the multitude of customization options in @canva. It takes time to explore and find the right ones for my design. #customization #overwhelmed',
+  'timestamp': '2022-01-02T02:09:03Z'},
+ {'text': 'Just created an engaging video ad using @canva. The pre-built templates and easy-to-use tools make video creation a breeze! #videoad #canvavideo',
+  'timestamp': '2022-01-07T02:51:30Z'},
+ {'text': 'Feeling disappointed with the limited file format options for exporting designs in @canva. It can be inconvenient for specific needs. #exportformats #disappointed',
+  'timestamp': '2022-01-21T14:48:34Z'},
+ {'text': "Canva's design community is a constant source of inspiration. I love seeing the amazing work created by other designers! #designcommunity #inspiration",
+  'timestamp': '2022-01-15T05:12:06Z'},
+ {'text': 'Feeling frustrated with the limited functionality of the alignment tools in @canva. It can be challenging to achieve precise alignment. #alignment #frustrated',
+  'timestamp': '2022-01-07T00:20:58Z'},
+ {'text': "Canva Video's easy-to-use templates have been a lifesaver for my video projects. It saves me a lot of time and effort! #videomarketing #canvavideo",
+  'timestamp': '2022-01-12T10:05:48Z'},
+ {'text': 'Feeling disappointed with the limited options for exporting transparent backgrounds in @canva. It restricts the usability of my designs. #transparency #disappointed',
+  'timestamp': '2022-01-29T08:21:11Z'},
+ {'text': "Canva's design tutorials have been instrumental in expanding my design knowledge and skills. I appreciate the educational resources they provide. #designtutorials #learning",
+  'timestamp': '2022-01-21T11:18:29Z'},
+ {'text': "Feeling frustrated with the limited control over design layers in @canva's mobile app. It limits my ability to create complex designs on the go. #designlayers #frustrated",
+  'timestamp': '2022-01-05T02:55:56Z'},
+ {'text': "Just received negative feedback on the brochure I designed with @canva. It's disappointing to see my work not resonating with the audience. #design #feedback",
+  'timestamp': '2022-01-16T20:23:35Z'},
+ {'text': "Feeling a sense of frustration after struggling to create a visually appealing infographic with @canva. It didn't turn out as expected. #infographic #frustration",
+  'timestamp': '2022-01-18T08:42:39Z'},
+ {'text': "Canva Pro's background remover tool falls short in accurately removing complex backgrounds. It requires manual touch-ups. #backgroundremover #canvapro",
+  'timestamp': '2022-02-02T10:42:03Z'},
+ {'text': 'Feeling disappointed with the limited font customization options in @canva. It restricts my ability to create unique typographic designs. #fontcustomization #disappointed',
+  'timestamp': '2022-01-22T02:31:00Z'},
+ {'text': "Canva Video's user interface can be overwhelming for beginners. It takes time to navigate and understand all the features. #videomarketing #canvavideo",
+  'timestamp': '2022-01-14T01:45:22Z'},
+ {'text': "Feeling frustrated with the learning curve of @canva's animation features. It requires time and practice to create professional animations. #animation #learningcurve",
+  'timestamp': '2022-01-08T03:06:21Z'},
+ {'text': "Canva for Education's limited integration with learning management systems is a drawback. It would be beneficial to have seamless integration. #edtech #integration",
+  'timestamp': '2022-01-18T07:51:25Z'},
+ {'text': 'Just created a business flyer using @canva, but the limited customization options made it challenging to achieve the desired look. #businessflyer #design',
+  'timestamp': '2022-01-01T00:30:41Z'},
+ {'text': 'Feeling disappointed with the limited options for 3D effects in @canva. It falls short when it comes to creating realistic three-dimensional visuals. #3Deffects #disappointed',
+  'timestamp': '2022-01-03T03:58:43Z'},
+ {'text': "Canva Pro's team collaboration feature has occasional glitches, causing delays in project timelines. It disrupts the workflow. #collaboration #glitches",
+  'timestamp': '2022-01-22T14:08:40Z'},
+ {'text': 'Feeling overwhelmed by the extensive library of design elements in @canva. It can be challenging to find the right ones that suit my style. #designelements #overwhelmed',
+  'timestamp': '2022-01-29T14:54:40Z'},
+ {'text': "Canva Print's delivery times can be longer than expected, which can be frustrating when there's a tight deadline. #printing #canvaprint",
+  'timestamp': '2022-01-20T01:52:21Z'},
+ {'text': 'Feeling frustrated with the occasional lag when working on complex designs in @canva. It slows down my workflow and causes frustration. #lagging #frustrated',
+  'timestamp': '2022-01-05T20:10:41Z'},
+ {'text': "Canva's design tutorials have been a valuable resource for learning new techniques and improving my design skills. #designtutorials #learning",
+  'timestamp': '2022-01-22T16:07:48Z'},
+ {'text': 'Feeling disappointed with the limited options for realistic shadows and reflections in @canva. It falls short when it comes to creating lifelike effects. #shadows #disappointed',
+  'timestamp': '2022-02-11T03:25:21Z'},
+ {'text': "Canva Pro's collaboration feature has occasional sync issues, causing confusion and delays in the design process. #collaboration #syncissues",
+  'timestamp': '2022-01-02T00:31:02Z'},
+ {'text': 'Feeling overwhelmed by the multitude of customization options in @canva. It takes time and experimentation to find the right ones for my design. #customization #overwhelmed',
+  'timestamp': '2022-01-14T16:07:58Z'},
+ {'text': "Just created an animated social media post using @canva. The animation tools are limited, and it's challenging to create complex animations. #animatedpost #canvaanimation",
+  'timestamp': '2022-01-08T05:56:30Z'},
+ {'text': 'Feeling disappointed with the limited file format options for exporting designs in @canva. It can be inconvenient for specific project requirements. #exportformats #disappointed',
+  'timestamp': '2022-01-10T13:03:40Z'},
+ {'text': "Canva's design community provides a platform to share and receive feedback on designs. However, sometimes the feedback can be overly critical. #designcommunity #feedback",
+  'timestamp': '2022-01-06T05:37:28Z'},
+ {'text': 'Feeling frustrated with the limited control over design alignment in @canva. It can be challenging to achieve precise alignment across elements. #alignment #frustrated',
+  'timestamp': '2022-02-07T04:13:19Z'},
+ {'text': "Canva Video's pre-built templates are great for quick video creation. However, they lack variety, and it can be difficult to find the perfect fit. #videomarketing #canvavideo",
+  'timestamp': '2022-01-29T15:50:16Z'},
+ {'text': 'Feeling disappointed with the limited options for exporting transparent backgrounds in @canva. It restricts the versatility of my designs. #transparency #disappointed',
+  'timestamp': '2022-01-25T02:53:54Z'},
+ {'text': "Canva's design tutorials have been helpful in expanding my design knowledge, but some tutorials lack in-depth explanations. #designtutorials #learning",
+  'timestamp': '2022-01-13T04:02:45Z'},
+ {'text': "Feeling frustrated with the limitations of @canva's mobile app when it comes to complex design projects. It's not as feature-rich as the desktop version. #mobileapp #frustrated",
+  'timestamp': '2022-02-02T08:44:15Z'},
+ {'text': "Just received negative feedback on the logo design I created with @canva. It's disheartening when my work doesn't meet the client's expectations. #logodesign #feedback",
+  'timestamp': '2022-02-06T17:51:29Z'},
+ {'text': "Feeling a bit frustrated after struggling to create a visually cohesive social media feed using @canva. It's challenging to maintain consistency. #socialmediafeed #frustration",
+  'timestamp': '2022-01-09T10:34:00Z'},
+ {'text': "Canva Pro's background remover tool doesn't always produce clean cutouts, requiring manual adjustments. #backgroundremover #canvapro",
+  'timestamp': '2022-02-03T10:41:44Z'},
+ {'text': 'Feeling disappointed with the limited font selection in @canva. It can be challenging to find unique and distinctive fonts for my designs. #fontselection #disappointed',
+  'timestamp': '2022-01-01T21:37:38Z'},
+ {'text': "Canva Video's user interface can be overwhelming for beginners. It takes time to familiarize yourself with the layout and functionality. #videomarketing #canvavideo",
+  'timestamp': '2022-01-16T21:35:27Z'},
+ {'text': "Feeling frustrated with the learning curve of @canva's animation features. It requires time and practice to master advanced animations. #animation #learningcurve",
+  'timestamp': '2022-02-12T08:11:00Z'},
+ {'text': "Canva for Education's integration with learning management systems is helpful, but there are occasional compatibility issues. #edtech #integration",
+  'timestamp': '2022-01-10T03:15:33Z'},
+ {'text': 'Just created a poster design using @canva, but the limited customization options made it challenging to achieve the desired visual impact. #posterdesign #design',
+  'timestamp': '2022-01-30T17:14:39Z'},
+ {'text': 'Feeling disappointed with the limited options for realistic 3D effects in @canva. It falls short when it comes to creating immersive visuals. #3Deffects #disappointed',
+  'timestamp': '2022-02-05T06:38:27Z'},
+ {'text': "Canva Pro's collaboration feature is beneficial for teamwork, but there are occasional glitches that disrupt the collaborative process. #collaboration #glitches",
+  'timestamp': '2022-01-18T11:35:55Z'},
+ {'text': 'Feeling overwhelmed by the extensive library of design elements in @canva. It can be time-consuming to search for the perfect elements. #designelements #overwhelmed',
+  'timestamp': '2022-01-04T12:16:41Z'},
+ {'text': "Canva Print's print quality is generally good, but I've experienced occasional inconsistencies in color accuracy. #printing #canvaprint",
+  'timestamp': '2022-02-02T04:59:15Z'},
+ {'text': "Feeling frustrated with the occasional lag and unresponsiveness of @canva's mobile app. It hinders the design process when I'm working on the go. #appissues #frustrated",
+  'timestamp': '2022-01-30T01:19:09Z'},
+ {'text': 'Canva Brand Kit has been helpful in maintaining consistent branding across my designs. However, it lacks some advanced customization options. #branding #design',
+  'timestamp': '2022-01-10T07:20:55Z'},
+ {'text': 'Feeling a bit overwhelmed by the multitude of customization options in @canva. It takes time and experimentation to find the right ones for my design. #customization #overwhelmed',
+  'timestamp': '2022-02-06T02:11:51Z'},
+ {'text': 'Just created an engaging social media video using @canva. The pre-built templates and intuitive editing tools made the process enjoyable! #socialmediavideo #canvavideo',
+  'timestamp': '2022-01-03T06:46:40Z'},
+ {'text': 'Feeling disappointed with the limited file format options for exporting designs in @canva. It can be inconvenient when I need to work with specific formats. #exportformats #disappointed',
+  'timestamp': '2022-02-13T21:10:26Z'},
+ {'text': "Canva's design community is a great source of inspiration and support. It's inspiring to see the creative work of other designers! #designcommunity #inspiration",
+  'timestamp': '2022-01-27T05:24:26Z'},
+ {'text': 'Feeling frustrated with the limited control over design alignment in @canva. It can be challenging to achieve pixel-perfect alignment. #alignment #frustrated',
+  'timestamp': '2022-01-17T19:44:46Z'},
+ {'text': "Canva Video's templates have been a time-saving solution for my video marketing campaigns. They make it easy to create professional-looking videos! #videomarketing #canvavideo",
+  'timestamp': '2022-01-28T06:16:11Z'},
+ {'text': 'Feeling disappointed with the limited options for exporting designs with transparent backgrounds in @canva. It restricts the versatility of my designs. #transparency #disappointed',
+  'timestamp': '2022-01-29T00:08:49Z'},
+ {'text': "Canva's design tutorials have been a valuable resource for improving my design skills. The step-by-step instructions are easy to follow. #designtutorials #learning",
+  'timestamp': '2022-01-20T07:42:45Z'},
+ {'text': "Feeling frustrated with the limited control over design layers in @canva's mobile app. It limits my ability to create complex designs on the go. #designlayers #frustrated",
+  'timestamp': '2022-01-09T12:55:20Z'},
+ {'text': "Just received negative feedback on the packaging design I created with @canva. It's disheartening when my work doesn't resonate with the target audience. #packagingdesign #feedback",
+  'timestamp': '2022-02-10T09:16:11Z'},
+ {'text': "Feeling a sense of frustration after struggling to create a visually appealing infographic with @canva. It didn't turn out as expected. #infographic #frustration",
+  'timestamp': '2022-01-17T00:25:40Z'},
+ {'text': "Canva Pro's background remover tool falls short in accurately removing complex backgrounds. It often requires manual touch-ups. #backgroundremover #canvapro",
+  'timestamp': '2022-02-04T08:44:19Z'},
+ {'text': 'Feeling disappointed with the limited font customization options in @canva. It restricts my ability to create unique and personalized typographic designs. #fontcustomization #disappointed',
+  'timestamp': '2022-01-09T12:19:54Z'},
+ {'text': "Canva Video's user interface can be overwhelming for beginners. It takes time to navigate and understand all the features and options. #videomarketing #canvavideo",
+  'timestamp': '2022-01-21T19:31:08Z'},
+ {'text': "Feeling frustrated with the learning curve of @canva's animation features. It requires time and practice to create complex and polished animations. #animation #learningcurve",
+  'timestamp': '2022-01-01T01:20:26Z'},
+ {'text': "Canva for Education's limited integration with learning management systems is a drawback. Seamless integration would enhance the overall educational experience. #edtech #integration",
+  'timestamp': '2022-01-17T16:42:28Z'},
+ {'text': 'Just created a business flyer using @canva, but the limited customization options made it challenging to achieve the desired professional look. #businessflyer #design',
+  'timestamp': '2022-02-03T06:46:18Z'},
+ {'text': 'Feeling disappointed with the limited options for 3D effects in @canva. It falls short when it comes to creating realistic and immersive three-dimensional visuals. #3Deffects #disappointed',
+  'timestamp': '2022-01-28T04:32:22Z'},
+ {'text': "Canva Pro's team collaboration feature has occasional glitches, causing delays and communication issues during collaborative projects. #collaboration #glitches",
+  'timestamp': '2022-01-22T23:03:57Z'},
+ {'text': 'Feeling overwhelmed by the extensive library of design elements in @canva. It can be challenging to find the right ones that match my style and vision. #designelements #overwhelmed',
+  'timestamp': '2022-02-05T21:48:22Z'},
+ {'text': "Canva Print's delivery times can be longer than expected, which can be frustrating when there's a tight deadline for printed materials. #printing #canvaprint",
+  'timestamp': '2022-01-15T17:46:50Z'},
+ {'text': 'Feeling frustrated with the occasional lag when working on complex designs in @canva. It slows down my workflow and hampers productivity. #lagging #frustrated',
+  'timestamp': '2022-02-02T19:22:24Z'},
+ {'text': "Canva's design tutorials have been a valuable resource for learning new techniques and improving my design skills. They provide actionable insights and tips. #designtutorials #learning",
+  'timestamp': '2022-01-02T22:41:38Z'},
+ {'text': 'Feeling disappointed with the limited options for realistic shadows and reflections in @canva. It falls short when it comes to creating lifelike and impactful effects. #shadows #disappointed',
+  'timestamp': '2022-01-14T02:53:08Z'},
+ {'text': "Canva Pro's collaboration feature has occasional sync issues, causing confusion and coordination problems among team members. #collaboration #syncissues",
+  'timestamp': '2022-02-02T19:08:09Z'},
+ {'text': 'Feeling overwhelmed by the multitude of customization options in @canva. It takes time and experimentation to find the right ones that align with my design vision. #customization #overwhelmed',
+  'timestamp': '2022-01-24T01:18:50Z'},
+ {'text': 'Just created an eye-catching social media post using @canva. The intuitive interface and drag-and-drop functionality made the design process effortless! #socialmediapost #canva',
+  'timestamp': '2022-01-14T18:34:42Z'},
+ {'text': 'Feeling disappointed with the limited file format options for exporting designs in @canva. It can be frustrating when I need to work with specific formats. #exportformats #disappointed',
+  'timestamp': '2022-01-10T14:22:40Z'},
+ {'text': "Canva's design community has been a great source of inspiration and feedback. It's wonderful to connect with like-minded designers and share creative ideas! #designcommunity #inspiration",
+  'timestamp': '2022-01-10T12:38:01Z'},
+ {'text': 'Feeling frustrated with the limited control over design alignment in @canva. It can be challenging to achieve pixel-perfect alignment across elements. #alignment #frustrated',
+  'timestamp': '2022-01-04T01:53:25Z'},
+ {'text': "Canva Video's templates have been a game-changer for my video marketing efforts. They save time and make it easy to create professional-looking videos! #videomarketing #canvavideo",
+  'timestamp': '2022-02-10T22:36:58Z'},
+ {'text': 'Feeling disappointed with the limited options for exporting designs with transparent backgrounds in @canva. It limits the versatility of my designs. #transparency #disappointed',
+  'timestamp': '2022-02-12T12:15:55Z'},
+ {'text': "Canva's design tutorials have been a valuable learning resource for me. They have helped me enhance my design skills and explore new creative techniques. #designtutorials #learning",
+  'timestamp': '2022-01-05T08:11:53Z'},
+ {'text': 'Just created a stunning flyer for my upcoming event using Canva! #graphicdesign #eventplanning',
+  'timestamp': '2022-01-24T01:06:22Z'},
+ {'text': 'Feeling so joyful while designing my brand new logo with Canva! #design #branding',
+  'timestamp': '2022-01-25T04:19:53Z'},
+ {'text': "Canva's photo editor is a game-changer! I can't believe how easy it is to enhance my images. #photography #editing",
+  'timestamp': '2022-01-19T12:41:45Z'},
+ {'text': 'Just finished a captivating presentation using Canva. Ready to wow my audience! #presentations #publicspeaking',
+  'timestamp': '2022-02-06T04:08:05Z'},
+ {'text': 'Designing social media graphics with Canva is my new favorite pastime! #socialmedia #design',
+  'timestamp': '2022-01-08T03:52:11Z'},
+ {'text': 'Feeling surprised by the amazing selection of templates Canva offers. So many options to choose from! #design #templates',
+  'timestamp': '2022-01-16T15:17:38Z'},
+ {'text': "Canva has made my logo creation process a breeze. I'm thrilled with the result! #logodesign #branding",
+  'timestamp': '2022-02-02T04:42:32Z'},
+ {'text': "Just designed a beautiful infographic using Canva. It's so much fun and educational! #infographics #design",
+  'timestamp': '2022-02-12T22:14:00Z'},
+ {'text': 'Feeling a mix of excitement and nervousness as I prepare my presentation slides on Canva. Wish me luck! #presentations #design',
+  'timestamp': '2022-01-19T14:01:40Z'},
+ {'text': "Canva's photo editor is a lifesaver for my social media posts. It helps me stand out from the crowd! #photoediting #socialmedia",
+  'timestamp': '2022-01-05T01:21:00Z'},
+ {'text': 'Just created a captivating book cover for my upcoming novel using Canva. It perfectly captures the essence of the story! #bookcover #design',
+  'timestamp': '2022-01-20T22:43:48Z'},
+ {'text': 'Feeling a sense of accomplishment after designing my business cards on Canva. They look so professional! #businesscards #design',
+  'timestamp': '2022-01-20T03:02:53Z'},
+ {'text': "Canva's templates make it so easy to design eye-catching posters. I'm impressed! #posters #design",
+  'timestamp': '2022-02-08T08:56:38Z'},
+ {'text': "Just customized an elegant invitation for my friend's wedding using Canva. It's going to be a memorable celebration! #invitations #design",
+  'timestamp': '2022-01-24T18:54:03Z'},
+ {'text': "Feeling a bit frustrated while trying to perfect my resume design on Canva. It's a work in progress! #resumedesign #jobsearch",
+  'timestamp': '2022-01-07T07:35:47Z'},
+ {'text': "Canva's brochure templates are top-notch! I'm excited to showcase my business in a visually appealing way. #brochures #design",
+  'timestamp': '2022-01-21T18:47:19Z'},
+ {'text': "Just created a series of social media graphics using Canva, and I can't wait to share them with my followers! #socialmediamarketing #graphics",
+  'timestamp': '2022-01-15T20:11:06Z'},
+ {'text': 'Feeling a mix of happiness and relief as I finalize my event flyer design on Canva. It looks fantastic! #eventplanning #design',
+  'timestamp': '2022-02-05T04:43:26Z'},
+ {'text': "Canva's logo design feature has exceeded my expectations. My brand now has a visual identity that truly represents it! #branding #logodesign",
+  'timestamp': '2022-01-28T05:01:48Z'},
+ {'text': "Just designed an attention-grabbing social media graphic on Canva. It's a powerful tool for marketing! #socialmediadesign #marketing",
+  'timestamp': '2022-02-03T06:48:33Z'},
+ {'text': 'Feeling a mix of anticipation and nervousness as I create my presentation slides on Canva. I hope it impresses my colleagues! #presentations #design',
+  'timestamp': '2022-02-11T03:46:37Z'},
+ {'text': "Canva's photo editor has made my vacation photos look like professional shots. I'm amazed by the results! #photography #editing",
+  'timestamp': '2022-02-03T18:03:48Z'},
+ {'text': "Just finished a visually stunning infographic using Canva. It's an excellent way to present complex information! #infographics #design",
+  'timestamp': '2022-02-03T08:34:55Z'},
+ {'text': "Feeling a mix of excitement and jitters as I design my business cards on Canva. It's a crucial step for networking! #businesscards #design",
+  'timestamp': '2022-01-22T02:01:20Z'},
+ {'text': "Canva's poster templates are a game-changer for event promotions. I'm loving the variety of designs! #posters #design",
+  'timestamp': '2022-02-05T02:42:24Z'},
+ {'text': 'Just created an elegant wedding invitation using Canva. The couple will be thrilled! #weddinginvitations #design',
+  'timestamp': '2022-01-21T14:21:07Z'},
+ {'text': "Feeling a mix of determination and stress as I work on perfecting my resume design on Canva. It's worth the effort! #resumedesign #jobsearch",
+  'timestamp': '2022-01-06T20:00:14Z'},
+ {'text': "Canva's brochure templates have simplified the process of creating informative materials for my business. Highly recommend! #brochures #design",
+  'timestamp': '2022-01-26T09:25:18Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and I'm already receiving positive feedback from my audience! #socialmedia #graphics",
+  'timestamp': '2022-01-31T17:58:15Z'},
+ {'text': "Feeling proud of my event flyer design on Canva. It's visually striking and effectively conveys the event's details! #eventplanning #design",
+  'timestamp': '2022-02-01T21:43:47Z'},
+ {'text': "Canva's logo design feature has made it so much easier to create a unique brand identity. I'm thrilled with the results! #branding #logodesign",
+  'timestamp': '2022-02-02T09:36:35Z'},
+ {'text': "Just created a powerful social media graphic on Canva. It's a great way to grab attention and engage my audience! #socialmediadesign #marketing",
+  'timestamp': '2022-01-08T15:05:52Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to make a strong impression! #presentations #design',
+  'timestamp': '2022-01-13T16:20:47Z'},
+ {'text': "Canva's photo editor has taken my photography skills to the next level. My pictures now look professional and polished! #photography #editing",
+  'timestamp': '2022-01-28T11:55:48Z'},
+ {'text': "Just finished a visually appealing infographic using Canva. It's a great way to communicate complex information effectively! #infographics #design",
+  'timestamp': '2022-01-14T16:10:26Z'},
+ {'text': 'Feeling a mix of excitement and anticipation as I design my business cards on Canva. They will represent my brand professionally! #businesscards #design',
+  'timestamp': '2022-01-31T23:03:10Z'},
+ {'text': "Canva's poster templates have made my event promotions stand out. They grab attention and generate interest! #posters #design",
+  'timestamp': '2022-02-13T02:44:22Z'},
+ {'text': "Just customized a stunning wedding invitation on Canva. It's going to set the perfect tone for the celebration! #weddinginvitations #design",
+  'timestamp': '2022-01-29T07:36:39Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's an important job application tool! #resumedesign #jobsearch",
+  'timestamp': '2022-01-05T22:24:12Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. Such a time-saver! #brochures #design",
+  'timestamp': '2022-02-09T07:36:22Z'},
+ {'text': "Just designed captivating social media graphics on Canva, and they're already generating a buzz among my followers! #socialmedia #graphics",
+  'timestamp': '2022-01-05T15:07:54Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-01-30T03:51:18Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-01-22T04:38:08Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-02-13T23:46:47Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to deliver an impactful presentation! #presentations #design',
+  'timestamp': '2022-01-10T03:55:22Z'},
+ {'text': "Canva's photo editor has transformed my ordinary photos into works of art. It's incredible what a few adjustments can do! #photography #editing",
+  'timestamp': '2022-01-22T23:12:23Z'},
+ {'text': "Just finished a visually appealing infographic on Canva. It's a great way to simplify complex information for easy understanding! #infographics #design",
+  'timestamp': '2022-02-09T09:45:08Z'},
+ {'text': 'Feeling a mix of excitement and pride as I design my business cards on Canva. They will make a lasting impression on potential clients! #businesscards #design',
+  'timestamp': '2022-01-19T16:55:31Z'},
+ {'text': "Canva's poster templates have made my event promotions more impactful. They catch attention and drive attendance! #posters #design",
+  'timestamp': '2022-01-05T15:04:19Z'},
+ {'text': "Just customized an elegant wedding invitation on Canva. It sets the perfect tone for the couple's special day! #weddinginvitations #design",
+  'timestamp': '2022-01-23T06:44:11Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's crucial for securing job opportunities! #resumedesign #jobsearch",
+  'timestamp': '2022-01-18T11:48:47Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. It's a great way to showcase my offerings! #brochures #design",
+  'timestamp': '2022-01-20T03:07:07Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and they're generating high engagement from my target audience! #socialmedia #graphics",
+  'timestamp': '2022-01-16T21:39:40Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-01-23T03:56:44Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-02-01T23:25:11Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-02-02T01:33:30Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to deliver an impactful presentation! #presentations #design',
+  'timestamp': '2022-01-03T14:38:00Z'},
+ {'text': "Canva's photo editor has transformed my ordinary photos into works of art. It's incredible what a few adjustments can do! #photography #editing",
+  'timestamp': '2022-02-11T16:20:59Z'},
+ {'text': "Just finished a visually appealing infographic on Canva. It's a great way to simplify complex information for easy understanding! #infographics #design",
+  'timestamp': '2022-02-11T09:51:05Z'},
+ {'text': 'Feeling a mix of excitement and pride as I design my business cards on Canva. They will make a lasting impression on potential clients! #businesscards #design',
+  'timestamp': '2022-02-07T06:05:30Z'},
+ {'text': "Canva's poster templates have made my event promotions more impactful. They catch attention and drive attendance! #posters #design",
+  'timestamp': '2022-01-21T05:18:21Z'},
+ {'text': "Just customized an elegant wedding invitation on Canva. It sets the perfect tone for the couple's special day! #weddinginvitations #design",
+  'timestamp': '2022-02-04T17:51:43Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's crucial for securing job opportunities! #resumedesign #jobsearch",
+  'timestamp': '2022-01-16T05:24:06Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. It's a great way to showcase my offerings! #brochures #design",
+  'timestamp': '2022-01-04T04:40:13Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and they're generating high engagement from my target audience! #socialmedia #graphics",
+  'timestamp': '2022-01-07T01:36:46Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-01-13T03:15:45Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-01-27T06:54:59Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-01-22T22:30:44Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to deliver an impactful presentation! #presentations #design',
+  'timestamp': '2022-01-12T08:33:13Z'},
+ {'text': "Canva's photo editor has transformed my ordinary photos into works of art. It's incredible what a few adjustments can do! #photography #editing",
+  'timestamp': '2022-01-07T03:30:06Z'},
+ {'text': "Just finished a visually appealing infographic on Canva. It's a great way to simplify complex information for easy understanding! #infographics #design",
+  'timestamp': '2022-01-17T00:03:50Z'},
+ {'text': 'Feeling a mix of excitement and pride as I design my business cards on Canva. They will make a lasting impression on potential clients! #businesscards #design',
+  'timestamp': '2022-01-12T21:19:05Z'},
+ {'text': "Canva's poster templates have made my event promotions more impactful. They catch attention and drive attendance! #posters #design",
+  'timestamp': '2022-01-15T18:09:13Z'},
+ {'text': "Just customized an elegant wedding invitation on Canva. It sets the perfect tone for the couple's special day! #weddinginvitations #design",
+  'timestamp': '2022-01-06T01:41:57Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's crucial for securing job opportunities! #resumedesign #jobsearch",
+  'timestamp': '2022-01-04T03:08:28Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. It's a great way to showcase my offerings! #brochures #design",
+  'timestamp': '2022-02-10T02:38:35Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and they're generating high engagement from my target audience! #socialmedia #graphics",
+  'timestamp': '2022-01-22T06:36:57Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-01-14T18:23:15Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-01-24T07:23:09Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-01-07T00:20:17Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to deliver an impactful presentation! #presentations #design',
+  'timestamp': '2022-01-23T02:33:16Z'},
+ {'text': "Canva's photo editor has transformed my ordinary photos into works of art. It's incredible what a few adjustments can do! #photography #editing",
+  'timestamp': '2022-01-30T02:56:52Z'},
+ {'text': "Just finished a visually appealing infographic on Canva. It's a great way to simplify complex information for easy understanding! #infographics #design",
+  'timestamp': '2022-02-09T02:34:54Z'},
+ {'text': 'Feeling a mix of excitement and pride as I design my business cards on Canva. They will make a lasting impression on potential clients! #businesscards #design',
+  'timestamp': '2022-01-14T23:18:44Z'},
+ {'text': "Canva's poster templates have made my event promotions more impactful. They catch attention and drive attendance! #posters #design",
+  'timestamp': '2022-01-28T07:31:54Z'},
+ {'text': "Just customized an elegant wedding invitation on Canva. It sets the perfect tone for the couple's special day! #weddinginvitations #design",
+  'timestamp': '2022-01-05T07:15:53Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's crucial for securing job opportunities! #resumedesign #jobsearch",
+  'timestamp': '2022-01-16T04:31:35Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. It's a great way to showcase my offerings! #brochures #design",
+  'timestamp': '2022-01-16T23:21:06Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and they're generating high engagement from my target audience! #socialmedia #graphics",
+  'timestamp': '2022-01-26T14:53:35Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-01-02T13:17:36Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-01-21T03:33:07Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-01-02T02:06:50Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to deliver an impactful presentation! #presentations #design',
+  'timestamp': '2022-02-13T12:11:28Z'},
+ {'text': "Canva's photo editor has transformed my ordinary photos into works of art. It's incredible what a few adjustments can do! #photography #editing",
+  'timestamp': '2022-01-28T10:28:08Z'},
+ {'text': "Just finished a visually appealing infographic on Canva. It's a great way to simplify complex information for easy understanding! #infographics #design",
+  'timestamp': '2022-01-22T02:15:08Z'},
+ {'text': 'Feeling a mix of excitement and pride as I design my business cards on Canva. They will make a lasting impression on potential clients! #businesscards #design',
+  'timestamp': '2022-01-17T16:45:01Z'},
+ {'text': "Canva's poster templates have made my event promotions more impactful. They catch attention and drive attendance! #posters #design",
+  'timestamp': '2022-02-09T09:39:52Z'},
+ {'text': "Just customized an elegant wedding invitation on Canva. It sets the perfect tone for the couple's special day! #weddinginvitations #design",
+  'timestamp': '2022-01-01T19:57:22Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's crucial for securing job opportunities! #resumedesign #jobsearch",
+  'timestamp': '2022-01-06T13:11:27Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. It's a great way to showcase my offerings! #brochures #design",
+  'timestamp': '2022-01-26T19:33:15Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and they're generating high engagement from my target audience! #socialmedia #graphics",
+  'timestamp': '2022-01-13T21:43:44Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-02-08T22:30:00Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-01-27T04:09:23Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-01-10T07:37:44Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to deliver an impactful presentation! #presentations #design',
+  'timestamp': '2022-02-08T00:09:08Z'},
+ {'text': "Canva's photo editor has transformed my ordinary photos into works of art. It's incredible what a few adjustments can do! #photography #editing",
+  'timestamp': '2022-02-08T18:55:55Z'},
+ {'text': "Just finished a visually appealing infographic on Canva. It's a great way to simplify complex information for easy understanding! #infographics #design",
+  'timestamp': '2022-02-04T04:55:32Z'},
+ {'text': 'Feeling a mix of excitement and pride as I design my business cards on Canva. They will make a lasting impression on potential clients! #businesscards #design',
+  'timestamp': '2022-01-06T00:12:46Z'},
+ {'text': "Canva's poster templates have made my event promotions more impactful. They catch attention and drive attendance! #posters #design",
+  'timestamp': '2022-02-09T13:30:41Z'},
+ {'text': "Just customized an elegant wedding invitation on Canva. It sets the perfect tone for the couple's special day! #weddinginvitations #design",
+  'timestamp': '2022-01-21T05:59:25Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's crucial for securing job opportunities! #resumedesign #jobsearch",
+  'timestamp': '2022-01-26T07:08:27Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. It's a great way to showcase my offerings! #brochures #design",
+  'timestamp': '2022-02-09T21:26:04Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and they're generating high engagement from my target audience! #socialmedia #graphics",
+  'timestamp': '2022-02-12T11:49:40Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-02-01T00:25:14Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-01-18T05:50:42Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-01-12T02:13:00Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to deliver an impactful presentation! #presentations #design',
+  'timestamp': '2022-01-18T20:35:05Z'},
+ {'text': "Canva's photo editor has transformed my ordinary photos into works of art. It's incredible what a few adjustments can do! #photography #editing",
+  'timestamp': '2022-01-09T03:21:59Z'},
+ {'text': "Just finished a visually appealing infographic on Canva. It's a great way to simplify complex information for easy understanding! #infographics #design",
+  'timestamp': '2022-02-08T22:12:39Z'},
+ {'text': 'Feeling a mix of excitement and pride as I design my business cards on Canva. They will make a lasting impression on potential clients! #businesscards #design',
+  'timestamp': '2022-02-12T08:45:02Z'},
+ {'text': "Canva's poster templates have made my event promotions more impactful. They catch attention and drive attendance! #posters #design",
+  'timestamp': '2022-02-06T11:41:41Z'},
+ {'text': "Just customized an elegant wedding invitation on Canva. It sets the perfect tone for the couple's special day! #weddinginvitations #design",
+  'timestamp': '2022-01-10T19:25:09Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's crucial for securing job opportunities! #resumedesign #jobsearch",
+  'timestamp': '2022-01-03T03:24:58Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. It's a great way to showcase my offerings! #brochures #design",
+  'timestamp': '2022-01-17T12:44:38Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and they're generating high engagement from my target audience! #socialmedia #graphics",
+  'timestamp': '2022-01-07T12:22:57Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-02-08T09:59:37Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-01-20T07:45:22Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-02-12T01:50:07Z'},
+ {'text': 'Feeling a mix of excitement and nerves as I prepare my presentation slides on Canva. Hoping to deliver an impactful presentation! #presentations #design',
+  'timestamp': '2022-01-03T08:52:27Z'},
+ {'text': "Canva's photo editor has transformed my ordinary photos into works of art. It's incredible what a few adjustments can do! #photography #editing",
+  'timestamp': '2022-01-14T10:53:13Z'},
+ {'text': "Just finished a visually appealing infographic on Canva. It's a great way to simplify complex information for easy understanding! #infographics #design",
+  'timestamp': '2022-01-10T00:01:50Z'},
+ {'text': 'Feeling a mix of excitement and pride as I design my business cards on Canva. They will make a lasting impression on potential clients! #businesscards #design',
+  'timestamp': '2022-01-30T07:51:59Z'},
+ {'text': "Canva's poster templates have made my event promotions more impactful. They catch attention and drive attendance! #posters #design",
+  'timestamp': '2022-01-27T03:09:48Z'},
+ {'text': "Just customized an elegant wedding invitation on Canva. It sets the perfect tone for the couple's special day! #weddinginvitations #design",
+  'timestamp': '2022-01-22T23:04:24Z'},
+ {'text': "Feeling a mix of determination and pressure as I work on perfecting my resume design on Canva. It's crucial for securing job opportunities! #resumedesign #jobsearch",
+  'timestamp': '2022-01-16T10:50:53Z'},
+ {'text': "Canva's brochure templates have made it effortless to create informative materials for my business. It's a great way to showcase my offerings! #brochures #design",
+  'timestamp': '2022-02-08T10:42:05Z'},
+ {'text': "Just designed eye-catching social media graphics on Canva, and they're generating high engagement from my target audience! #socialmedia #graphics",
+  'timestamp': '2022-02-12T13:27:46Z'},
+ {'text': 'Feeling proud of my event flyer design on Canva. It captures attention and effectively promotes the upcoming event! #eventplanning #design',
+  'timestamp': '2022-02-13T19:52:37Z'},
+ {'text': "Canva's logo design feature has allowed me to create a strong brand identity. It reflects the values and personality of my business! #branding #logodesign",
+  'timestamp': '2022-01-12T13:58:49Z'},
+ {'text': "Just created a visually stunning social media graphic on Canva. It's a powerful tool for building brand presence! #socialmediadesign #marketing",
+  'timestamp': '2022-02-11T08:12:25Z'}]
